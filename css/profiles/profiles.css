@@ -1,0 +1,99 @@
+.profiles {
+  margin: 90px 0;
+  padding-bottom: 4rem;
+}
+.profiles .block-header .subtitle {
+  font-weight: 600;
+  color: #B7CD00;
+}
+.profiles .block-header .title {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.profiles .carousel-wrapper .profile-container {
+  position: relative;
+  padding-left: 3rem;
+  height: 437px;
+  max-width: 361px;
+}
+.profiles .carousel-wrapper .profile-container .img-wrapper {
+  padding-left: 2rem;
+}
+.profiles .carousel-wrapper .profile-container .img-wrapper img {
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  aspect-ratio: 9/14;
+}
+.profiles .carousel-wrapper .profile-container .info {
+  position: absolute;
+  bottom: 72px;
+  border-radius: 5px;
+  background-color: #36A9E1;
+  width: 281px;
+  height: 87px;
+  padding: 1rem 2rem;
+}
+.profiles .carousel-wrapper .profile-container .info .profile-name {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.profiles .carousel-wrapper .profile-container .info .profile-role {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.profiles .carousel-wrapper .profile-container .contacts {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 20px;
+  left: 6rem;
+}
+.profiles .carousel-wrapper .profile-container .contacts a {
+  border-radius: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  background-color: #FFFFFF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profiles .carousel-wrapper .slick-arrow {
+  width: 48px;
+  height: 48px;
+  top: -60px;
+}
+.profiles .carousel-wrapper .slick-prev {
+  left: 81%;
+}
+.profiles .carousel-wrapper .slick-next {
+  right: 120px;
+}
+.profiles.right-edge .slick-list {
+  margin-right: calc((100% - 100vw)/2 + 8px);
+}
+@media only screen and (max-width: 768px) {
+  .profiles .container .carousel-wrapper .profile-container {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+  .profiles .container .carousel-wrapper .slick-prev {
+    left: inherit;
+    right: 60px;
+  }
+  .profiles .container .carousel-wrapper .slick-next {
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=profiles.css.map */

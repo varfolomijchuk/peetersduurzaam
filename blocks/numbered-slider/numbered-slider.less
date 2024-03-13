@@ -1,0 +1,33 @@
+@import "../../assets/css/variables";
+
+.cpt-carousel {
+    .slick-list {
+        //margin-left: -100px;
+        //margin-right: -70px
+    }
+    .slick-track {
+        display: flex;
+        gap: .75rem;
+        .single-carousel-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: @radius-middle;
+            .taxonomy-btns {
+                position: absolute;
+                top: 2.25rem;
+                left: 2rem;
+            }
+            img {
+                border-radius: @radius-middle;
+            }
+            h4 {
+                color: @white;
+                font-weight: 600;
+                position: absolute;
+                bottom: 10px;
+                left: 40px;
+            }
+        }
+    }
+
+}

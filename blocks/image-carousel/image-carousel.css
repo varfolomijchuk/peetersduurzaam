@@ -1,0 +1,63 @@
+.image-carousel {
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+
+.image-carousel .slick-list  {
+  overflow: visible;
+}
+
+.image-carousel .slick-list .carousel-img-container {
+  transform: scale(0.85);
+  transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+@media (max-width: 1399px) {
+  .image-carousel {
+    padding: 2rem 0;
+  }
+  .image-carousel .slick-list .carousel-img-container {
+    margin: 0;
+    transform: scale(0.95);
+    transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+
+  .image-carousel .slick-list .carousel-img-container.slick-current {
+    transform: scale(1);
+  }
+
+  .image-carousel .slick-list .slick-track {
+    overflow: visible;
+  }
+
+  .image-carousel .slick-list .carousel-img-container img {
+    width: 100%;
+  }
+}
+.image-carousel .slick-list .carousel-img-container img {
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 1190px;
+  aspect-ratio: 2;
+  object-fit: cover;
+}
+.image-carousel .slick-list .carousel-img-container.slick-center {
+  transform: scaleX(1.1);
+  padding: 0;
+}
+.image-carousel .slick-prev {
+  left: -35px;
+}
+.image-carousel .slick-next {
+  right: -25px;
+}
+.image-carousel.werkwijze {
+  margin-top: 8rem;
+}
+.image-carousel.right-edge .slick-list {
+  margin-right: calc((100% - 100vw)/2 + 8px);
+}
+.image-carousel.left-edge .slick-list {
+  margin-left: calc((100% - 100vw)/2 - 8px);
+}
+/*# sourceMappingURL=image-carousel.css.map */

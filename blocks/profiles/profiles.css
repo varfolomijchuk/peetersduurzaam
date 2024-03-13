@@ -1,0 +1,123 @@
+.profiles {
+  margin: 90px 0;
+  overflow: hidden;
+  padding-bottom: 4rem;
+}
+.profiles .block-header .subtitle {
+  font-weight: 600;
+  color: #b7cd00;
+}
+.profiles .block-header .title {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.profiles .carousel-wrapper .profile-container {
+  position: relative;
+  padding-left: 3rem;
+  height: 437px;
+  max-width: 361px;
+}
+.profiles .carousel-wrapper .profile-container .img-wrapper {
+  padding-left: 2rem;
+}
+.profiles .carousel-wrapper .profile-container .img-wrapper img {
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 9/14;
+}
+.profiles .carousel-wrapper .profile-container .info {
+  position: absolute;
+  bottom: 72px;
+  border-radius: 5px;
+  background-color: #36a9e1;
+  width: 281px;
+  height: 87px;
+  padding: 1rem 2rem;
+}
+.profiles .carousel-wrapper .profile-container .info .profile-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+.profiles .carousel-wrapper .profile-container .info .profile-role {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.profiles .carousel-wrapper .profile-container .contacts {
+  display: inline-flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 20px;
+  left: 6rem;
+}
+.profiles .carousel-wrapper .profile-container .contacts a {
+  border-radius: 17px;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.profiles .carousel-wrapper .slick-arrow {
+  width: 48px;
+  height: 48px;
+  top: -60px;
+}
+.profiles .carousel-wrapper .slick-prev {
+  left: 81%;
+}
+.profiles .carousel-wrapper .slick-next {
+  right: 120px;
+}
+.profiles.right-edge .slick-list {
+  margin-right: calc((100% - 100vw) / 2 + 8px);
+}
+@media only screen and (min-width: 769px) {
+  .profiles .carousel-wrapper .profile-container {
+    padding-left: 1.5rem;
+  }
+
+  .profiles .carousel-wrapper .profile-container .img-wrapper {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .profiles .carousel-wrapper .profile-container .img-wrapper img {
+    aspect-ratio: 312/439;
+  }
+
+  .profiles .carousel-wrapper .profile-container .info {
+    height: auto;
+  }
+
+  .profiles .carousel-wrapper .profile-container .info .profile-name,
+  .profiles .carousel-wrapper .profile-container .info .profile-role {
+    overflow: unset;
+    /*
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    */
+  }
+}
+@media only screen and (max-width: 768px) {
+  .profiles .carousel-wrapper .profile-container .info {
+    height: auto;
+  }
+
+  .profiles .container .carousel-wrapper .profile-container {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+  .profiles .container .carousel-wrapper .slick-prev {
+    left: inherit;
+    right: 60px;
+  }
+  .profiles .container .carousel-wrapper .slick-next {
+    right: 0;
+  }
+}

@@ -1,0 +1,98 @@
+.reviews-carousel {
+  padding-top: 6rem;
+}
+.reviews-carousel .block-header {
+  margin-bottom: -60px;
+}
+.reviews-carousel .block-header .subtitle {
+  font-weight: 600;
+  color: #006633;
+}
+.reviews-carousel .block-header .title-reviews-wrapper .google-reviews {
+  position: relative;
+  bottom: 1.5rem;
+}
+.reviews-carousel .block-header .title {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.reviews-carousel .review-carousel-wrapper.gray-items .slick-track .single-carousel-item {
+  background-color: #F5F5F7;
+}
+.reviews-carousel .review-carousel-wrapper .slick-arrow {
+  width: 48px;
+  height: 48px;
+}
+.reviews-carousel .review-carousel-wrapper .slick-prev {
+  position: absolute;
+  top: -20px;
+  left: 88%;
+}
+.reviews-carousel .review-carousel-wrapper .slick-next {
+  top: -20px;
+  right: 20px;
+}
+.reviews-carousel .review-carousel-wrapper .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0;
+  gap: 1.5rem;
+}
+.reviews-carousel .review-carousel-wrapper .slick-track .single-carousel-item {
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.reviews-carousel .review-carousel-wrapper .slick-track .single-carousel-item .customer-review {
+  color: #4C6078;
+}
+.reviews-carousel .review-carousel-wrapper .slick-track .single-carousel-item .customer-name {
+  color: #4C6078;
+  margin-bottom: -0.5rem;
+}
+.reviews-carousel.pb-240 {
+  position: relative;
+  padding-bottom: 200px;
+  margin-top: -60px;
+}
+.reviews-carousel.indent-left .block-header,
+.reviews-carousel.indent-left .slick-list {
+  margin-left: 200px;
+}
+.reviews-carousel.right-edge .slick-list {
+  margin-right: calc((100% - 100vw) / 2 + 8px);
+}
+@media only screen and (max-width: 768px) {
+  .reviews-carousel {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .reviews-carousel .block-header .title-reviews-wrapper .google-reviews {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 0 !important;
+  }
+  .reviews-carousel .block-header .title-reviews-wrapper .google-reviews .ti-widget-container {
+    text-align: left;
+  }
+  .reviews-carousel .review-carousel-wrapper button.slick-prev {
+    bottom: -70px;
+    left: calc(100vw/2 - 80px);
+    top: inherit;
+  }
+  .reviews-carousel .review-carousel-wrapper .slick-list {
+    margin-right: inherit;
+  }
+  .reviews-carousel .review-carousel-wrapper .slick-list .slick-track {
+    gap: 0.1rem;
+  }
+  .reviews-carousel .review-carousel-wrapper button.slick-next {
+    bottom: -70px;
+    right: calc(100vw/2 - 80px);
+    top: inherit;
+  }
+}
+
+/*# sourceMappingURL=reviews-carousel.css.map */

@@ -1,0 +1,144 @@
+@import "../../assets/css/variables";
+
+.reviews-carousel {
+  padding-top: 6rem;
+
+  .block-header {
+    margin-bottom: -60px;
+
+    .subtitle {
+      font-weight: 600;
+      color: @darkgreen;
+    }
+
+    .title-reviews-wrapper {
+      .google-reviews {
+        position: relative;
+        bottom: 1.5rem;
+      }
+    }
+
+    .title {
+      font-weight: 600;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .review-carousel-wrapper {
+    &.gray-items {
+      .slick-track {
+        .single-carousel-item {
+          background-color: @lighter;
+        }
+      }
+
+    }
+
+    .slick-arrow {
+      width: 48px;
+      height: 48px;
+    }
+
+    .slick-prev {
+      position: absolute;
+      top: -20px;
+      left: 88%;
+    }
+
+    .slick-next {
+      top: -20px;
+      right: 20px;
+    }
+
+    .slick-list {
+      //margin-left: -100px;
+      //margin-right: -70px
+    }
+
+    .slick-track {
+      display: flex;
+      margin: 2rem 0;
+      gap: 1.5rem;
+
+      .single-carousel-item {
+        background-color: @white;
+        position: relative;
+        //height: 233px;
+        padding: 2rem;
+        border-radius: @radius-middle;
+
+        .customer-review {
+          color: @body;
+        }
+
+        .customer-name {
+          color: @body;
+          margin-bottom: -.5rem;
+        }
+
+      }
+    }
+  }
+
+  &.pb-240 {
+    position: relative;
+    padding-bottom: 200px;
+    margin-top: -60px;
+  }
+
+  &.indent-left {
+    .block-header, .slick-list {
+      margin-left: @indent-left;
+    }
+  }
+
+  &.right-edge {
+    .slick-list {
+      margin-right: calc((100% - 100vw) / 2 + 8px);
+    }
+  }
+}
+
+//Page specific styles
+.page-id-2 {
+  .reviews-carousel {
+    //margin-top: -70px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .reviews-carousel  {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    .block-header {
+      .title-reviews-wrapper {
+        .google-reviews {
+          background-color: @white;
+          border-radius: @radius-small;
+          padding-left:0 !important;
+          .ti-widget-container {
+            text-align: left;
+          }
+        }
+      }
+    }
+    .review-carousel-wrapper {
+      button.slick-prev{
+        bottom: -70px;
+        left: calc(100vw/2 - 80px);
+        top: inherit;
+      }
+      .slick-list {
+        margin-right: inherit;
+        .slick-track {
+          gap: .1rem;
+        }
+      }
+      button.slick-next{
+        bottom: -70px;
+        right: calc(100vw/2 - 80px);
+        top: inherit;
+      }
+
+    }
+  }
+}

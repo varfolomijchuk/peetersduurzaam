@@ -1,0 +1,18 @@
+{
+    "name": "acf/contact-form-advanced",
+    "title": "Advanced Contact Form",
+    "description": "Contact form with wide image, header, text and button",
+    "style": [
+        "file:./contact-form-advanced.css"
+    ],
+    "category": "widgets",
+    "icon": "image-filter",
+    "keywords": [
+        "Advanced, Contact Form"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "contact-form-advanced.php"
+    },
+    "align": "full"
+}

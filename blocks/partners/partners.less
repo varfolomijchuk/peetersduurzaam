@@ -1,0 +1,67 @@
+@import "../../assets/css/variables";
+
+.partners {
+  margin-bottom: 6.25rem;
+
+  a.partners-item {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    border-radius: @radius-middle;
+    background: @white;
+    margin-bottom: 1.75rem;
+    &:hover {
+      .more-info {
+        color: @lightgreen;
+        svg path {
+          stroke: @lightgreen;
+        }
+      }
+    }
+    //box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.10);
+    .top-image-wrapper {
+      height: 200px;
+      border-bottom: 1px solid #dde1e7;
+      img.partner-img {
+        border-top-left-radius: @radius-small;
+        border-top-right-radius: @radius-small;
+        width: 100%;
+      }
+    }
+
+    .partner-title {
+      font-weight: 600;
+      margin: 1.8rem;
+    }
+
+    .partner-description {
+      color: @body;
+      padding: 0 1.8rem;
+    }
+
+    .more-info {
+      font-family: @default-font;
+      font-size: .875rem;
+      font-weight: 600;
+      color: @lightblue;
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #dde1e7;;
+      padding: 1.3rem 1.6rem;
+      border-radius: @radius-middle;
+      transition: all @default-transition-time;
+    }
+  }
+
+  &.shadowless {
+    a.partners-item {
+      height: 520px;
+      box-shadow: none;
+    }
+  }
+}
+
+// Page Specific styles
+
+

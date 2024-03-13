@@ -1,0 +1,18 @@
+{
+    "name": "acf/cpt-carousel",
+    "title": "CPT Carousel",
+    "description": "Custom Post Type Carousel with images and link",
+    "style": [
+        "file:./cpt-carousel.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "last projects"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "cpt-carousel.php"
+    },
+    "align": "full"
+}

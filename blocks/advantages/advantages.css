@@ -1,0 +1,15 @@
+.advantages {
+  background-color: #EDFFE7;
+  padding: 5.4rem 0;
+  margin-bottom: 6.25rem;
+}
+.advantages .advantage-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.advantages .advantage-item .advantage-text {
+  font-weight: 600;
+  margin: 0;
+}
+/*# sourceMappingURL=advantages.css.map */

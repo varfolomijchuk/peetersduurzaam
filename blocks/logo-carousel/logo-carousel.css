@@ -1,0 +1,32 @@
+.logo-carousel {
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+.logo-carousel .slick-list {
+  position: relative;
+  overflow: hidden;
+  margin-right: calc((100% - 100vw)/2 + 8px);
+}
+.logo-carousel .slick-list .slick-track::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.logo-carousel .slick-list .carousel-img-container {
+  border: 2px solid #F4F4F4;
+  padding: 10px 10px;
+  margin: 0 10px;
+  height: 88px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.logo-carousel .slick-list .carousel-img-container img {
+  margin: 0 auto;
+  width: 95%;
+}
+/*# sourceMappingURL=logo-carousel.css.map */

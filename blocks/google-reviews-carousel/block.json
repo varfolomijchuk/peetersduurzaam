@@ -1,0 +1,18 @@
+{
+    "name": "acf/google-reviews-carousel",
+    "title": "GRW Carousel",
+    "description": "Google Reviews Carousel using GRW plugin",
+    "style": [
+        "file:./google-reviews-carousel.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "GRW Carousel"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "google-reviews-carousel.php"
+    },
+    "align": "full"
+}

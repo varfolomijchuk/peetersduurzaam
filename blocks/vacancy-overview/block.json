@@ -1,0 +1,18 @@
+{
+    "name": "acf/vacancy-overview",
+    "title": "Vacancy overview",
+    "description": "Vacancy overview",
+    "style": [
+        "file:./vacancy-overview.css"
+    ],
+    "category": "text",
+    "icon": "image-filter",
+    "keywords": [
+        "vacancy-overview"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "vacancy-overview.php"
+    },
+    "align": "full"
+}

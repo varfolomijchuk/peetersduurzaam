@@ -1,0 +1,18 @@
+{
+    "name": "acf/mega-block",
+    "title": "Mega Block in two columns",
+    "description": "Customizable Title with subtitle above ",
+    "style": [
+        "file:./mega-block.css"
+    ],
+    "category": "text",
+    "icon": "image-filter",
+    "keywords": [
+        "Advantages block"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "mega-block.php"
+    },
+    "align": "full"
+}

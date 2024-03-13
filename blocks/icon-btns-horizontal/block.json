@@ -1,0 +1,18 @@
+{
+    "name": "acf/icon-btns-horizontal",
+    "title": "Icon Buttons Set",
+    "description": "Horizontal set of icon buttons",
+    "style": [
+        "file:./icon-btns-horizontal.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Icon Buttons"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "icon-btns-horizontal.php"
+    },
+    "align": "full"
+}

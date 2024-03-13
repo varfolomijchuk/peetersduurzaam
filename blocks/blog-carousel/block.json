@@ -1,0 +1,18 @@
+{
+    "name": "acf/blog-carousel",
+    "title": "BLOG Carousel",
+    "description": "Blog Post Type Carousel with images and link",
+    "style": [
+        "file:./blog-carousel.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "last projects"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "blog-carousel.php"
+    },
+    "align": "full"
+}

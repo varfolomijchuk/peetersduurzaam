@@ -1,0 +1,178 @@
+.cpt-carousel {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+.cpt-carousel .block-header {
+  margin-bottom: 1.5rem;
+}
+.cpt-carousel .block-header .left-block .subtitle {
+  color: #B7CD00;
+  font-weight: 600;
+}
+.cpt-carousel .block-header .left-block .title {
+  font-weight: 600;
+}
+.cpt-carousel.post-type .block-header .subtitle {
+  color: #006633;
+}
+.cpt-carousel .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+.cpt-carousel .slick-track .single-carousel-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 341px;
+}
+.cpt-carousel .slick-track .single-carousel-item .taxonomy-btns {
+  position: absolute;
+  top: 2.25rem;
+  left: 2rem;
+}
+.cpt-carousel .slick-track .single-carousel-item img {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.cpt-carousel .slick-track .single-carousel-item h4 {
+  color: #FFFFFF;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 578px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 223px;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a h5.blog-title {
+  font-weight: 600;
+  margin: 1.8rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a .blog-excerpt {
+  color: #4C6078;
+  margin: 1.8rem;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a:hover .more-info {
+  color: #B7CD00;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a:hover .more-info svg path {
+  stroke: #B7CD00;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a .more-info {
+  font-family: "Mont", sans_serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #36A9E1;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #f5f6f7;
+  padding: 1.3rem 1.6rem;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.cpt-carousel .slick-track .single-blog-carousel-item a .more-info svg path {
+  -webkit-transition: stroke 0.2s;
+  transition: stroke 0.2s;
+}
+.cpt-carousel .cpt-carousel-wrapper-post .slick-prev {
+  top: 80px;
+  left: 200px;
+}
+.cpt-carousel .cpt-carousel-wrapper-post .slick-list {
+  padding-bottom: 2rem;
+}
+.cpt-carousel .cpt-carousel-wrapper-post .slick-list .slick-track {
+  gap: 0;
+}
+.cpt-carousel .cpt-carousel-wrapper-post .slick-list .slick-track .single-blog-carousel-item {
+  padding: 0 7px;
+}
+.cpt-carousel .cpt-carousel-wrapper-post .slick-next {
+  top: 150px;
+  left: 200px;
+}
+.cpt-carousel.indent-left .block-header,
+.cpt-carousel.indent-left .slick-list {
+  margin-left: 200px;
+}
+.cpt-carousel.right-edge .slick-list {
+  margin-right: calc((100% - 100vw)/2 + 8px);
+}
+@media only screen and (max-width: 768px) {
+  .cpt-carousel {
+    padding-top: 7rem;
+  }
+  .cpt-carousel .block-header .right-block {
+    display: none;
+  }
+  .cpt-carousel .slick-slider {
+    padding: 0 0.5rem 0 0.25rem;
+  }
+  .cpt-carousel .slick-slider .slick-arrow {
+    width: 48px;
+    height: 48px;
+  }
+  .cpt-carousel .slick-slider .slick-arrow.slick-prev {
+    left: 0;
+  }
+  .cpt-carousel .slick-slider .slick-arrow.slick-next {
+    right: 0;
+  }
+  .cpt-carousel .all-posts a {
+    font-size: 0.875rem;
+  }
+  .cpt-carousel.post-type .slick-slider button.slick-prev {
+    right: 80px;
+    left: inherit;
+    top: -50px;
+  }
+  .cpt-carousel.post-type .slick-slider button.slick-next {
+    right: 10px;
+    left: inherit;
+    top: -50px;
+  }
+  .cpt-carousel.projecten-type .all-posts {
+    margin-top: 1rem;
+  }
+  .cpt-carousel.indent-left .block-header,
+  .cpt-carousel.indent-left .slick-list {
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=cpt-carousel.css.map */

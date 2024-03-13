@@ -1,0 +1,18 @@
+{
+    "name": "acf/advantages",
+    "title": "Our advantages block with icons left",
+    "description": "Full-width block with shown advantages (icon and short text) on a solid color background ",
+    "style": [
+        "file:./advantages.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Advantages block"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "advantages.php"
+    },
+    "align": "full"
+}

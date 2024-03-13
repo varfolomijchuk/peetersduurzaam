@@ -1,0 +1,73 @@
+@import "../../assets/css/variables";
+
+.faq {
+  padding: 3rem 0 3rem 0;
+  .container {
+    .col-lg-10.faq {
+      margin:inherit;
+    }
+  }
+  .p-subtitle {
+  color: @lightgreen;
+  }
+  .p-title {
+  color: @dark-titles;
+    font-weight: 600;
+  }
+  .accordion {
+    margin: 2rem 0;
+    .accordion-item {
+      margin-top: 20px;
+      background-color: transparent;
+      border: @light;
+      border-radius: 10px;
+    }
+
+    .accordion-button {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: inherit;
+      background-color: inherit;
+      transition: none;
+      &:focus {
+        box-shadow: none;
+      }
+
+      &::after {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none"><line y1="15" x2="31" y2="15" stroke="%23B7CD00" stroke-width="2"/><line x1="15" y1="31" x2="15" y2="4.37114e-08" stroke="%23B7CD00" stroke-width="2"/></svg>');
+        background-position: center;
+        transform: rotate(135deg);
+      }
+    }
+    .accordion-button.collapsed {
+      border-bottom: 1px solid @lighter;
+      &::after {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none"><line y1="15" x2="31" y2="15" stroke="%23B7CD00" stroke-width="2"/><line x1="15" y1="31" x2="15" y2="4.37114e-08" stroke="%23B7CD00" stroke-width="2"/></svg>');
+        background-position: center;
+        transform: rotate(0deg);
+
+      }
+    }
+  }
+
+}
+//Page specific customization
+@media only screen and (max-width: 768px) {
+  .accordion {
+    .accordion-item {
+      .accordion-header {
+        .accordion-button {
+          font-size: 1.125rem;
+          padding-left: 0;
+        }
+      }
+      .accordion-body {
+        padding-left: 0;
+        p {
+          font-size: .875rem;
+        }
+      }
+
+    }
+  }
+}

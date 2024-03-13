@@ -1,0 +1,112 @@
+.products-overview {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+}
+.products-overview .block-header .subtitle {
+  font-weight: 600;
+  color: #B7CD00;
+}
+.products-overview .block-header .title {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.products-overview a.product-overview-item {
+  display: flex;
+  flex-direction: column;
+  height: 578px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+.products-overview a.product-overview-item:hover .more-info {
+  color: #B7CD00;
+}
+.products-overview a.product-overview-item:hover .more-info svg path {
+  stroke: #B7CD00;
+}
+.products-overview a.product-overview-item img.product-overview-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+.products-overview a.product-overview-item .product-overview-title {
+  font-weight: 600;
+  margin: 1.8rem;
+}
+.products-overview a.product-overview-item .product-overview-description {
+  color: #4C6078;
+  padding: 0 1.8rem;
+}
+.products-overview a.product-overview-item .more-info {
+  font-family: "Mont", sans_serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #203669;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f5f6f7;
+  padding: 1.3rem 1.6rem;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+.products-overview a.product-overview-item .more-info svg path {
+  transition: stroke 0.2s;
+  stroke: #203669;
+}
+.products-overview.shadowless a.product-overview-item {
+  height: 400px;
+  box-shadow: none;
+}
+.products-overview.shadowless a.product-overview-item .more-info {
+  border-top: none;
+}
+.products-overview.gecertificeerd-duurzaam .top-image-wrapper {
+  border-bottom: 1px solid #E1E1E1;
+}
+.products-overview.gecertificeerd-duurzaam a.product-overview-item .more-info {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: 1px solid #E1E1E1;
+}
+@media only screen and (max-width: 768px) {
+  .home section.products-overview.onze-producten .product-overview-title {
+    font-size: 1.125rem;
+    margin: 1.25rem;
+  }
+  .home section.products-overview.onze-producten .product-overview-description {
+    padding: 0 1.25rem;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam {
+    padding-top: 1rem;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam .block-header {
+    margin-left: 0;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam .row {
+    margin-left: 0;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam .row .product-overview-title {
+    min-height: auto;
+    margin-bottom: 1rem;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam a.product-overview-item {
+    height: 450px;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam a.product-overview-item .product-overview-title {
+    font-size: 1.125rem;
+  }
+  .home section.products-overview.gecertificeerd-duurzaam a.product-overview-item .more-info {
+    display: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 1px solid #E1E1E1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .products-overview {
+    padding-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=products-overview.css.map */

@@ -1,0 +1,18 @@
+{
+    "name": "acf/reviews-carousel",
+    "title": "Reviews Carousel",
+    "description": "Reviews Carousel with review and author's name",
+    "style": [
+        "file:./reviews-carousel.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Reviews Carousel"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "reviews-carousel.php"
+    },
+    "align": "full"
+}

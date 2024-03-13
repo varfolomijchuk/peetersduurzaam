@@ -1,0 +1,18 @@
+{
+    "name": "acf/products-overview",
+    "title": "Partners overview",
+    "description": "An ovrview of products with 3 item in row with image, title and short description",
+    "style": [
+        "file:./products-overview.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Advantages block"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "products-overview.php"
+    },
+    "align": "full"
+}

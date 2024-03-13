@@ -1,0 +1,26 @@
+.cpt-carousel .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+.cpt-carousel .slick-track .single-carousel-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.cpt-carousel .slick-track .single-carousel-item .taxonomy-btns {
+  position: absolute;
+  top: 1.875rem;
+  left: 1.875rem;
+}
+.cpt-carousel .slick-track .single-carousel-item img {
+  border-radius: 10px;
+}
+.cpt-carousel .slick-track .single-carousel-item h4 {
+  color: #ffffff;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}

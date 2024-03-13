@@ -1,0 +1,84 @@
+@import "../../assets/css/variables";
+
+.icon-box {
+  background-color: #EDFFE7;
+  padding: 5.4rem 0;
+
+  .subtitle {
+    font-weight: @font-semibold;
+    color: @darkgreen;
+  }
+  .title {
+    font-weight: @font-semibold;
+  }
+
+  .icon-box-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .icon-box-head {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      height: 4rem;
+
+      .icon-box-title {
+        font-weight: 600;
+        margin: 0;
+      }
+    }
+    .icon-box-body {
+      .icon-box-text {
+        color: @body;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+//Page specific customization
+
+@media only screen and (max-width: 768px) {
+  .header-top-container {
+    .header-top {
+      background-color: #eee;
+      margin: 0 -12px;
+      padding: 15px;
+      align-items: center;
+      .info-mail, .phone-dot {
+        margin-bottom: 0;
+        font-size: .75rem;
+      }
+    }
+  }
+  .icon-box {
+    .icon-box-item {
+      gap: .75rem;
+      &.slick-slide {
+        margin-left:1rem;
+      }
+      .icon-box-title {
+        font-size: 1.125rem;
+      }
+    }
+    &.icon-box-carousel  {
+      padding: 1rem 0;
+      .mt-5 {
+        margin-top: 0 !important;
+        .icon-box-head {
+          margin: 0 auto;
+        }
+      }
+      .slick-list {
+        .slick-track {
+
+          .slick-slide {
+
+          }
+
+        }
+      }
+    }
+  }
+}
+

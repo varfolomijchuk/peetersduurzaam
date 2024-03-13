@@ -1,0 +1,60 @@
+@import "../../assets/css/variables";
+
+.icon-btns-horizontal {
+  margin: -40px 0 40px 0;
+  .icon-btns-horizontal-wrapper {
+    margin-bottom: 1rem;
+    .icon-btns-horizontal-container {
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      padding: 10px;
+      height: 76px;
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.10);
+      svg.icon-btns-horizontal-icon path {
+        transition: all @slow-transition-time ease-in-out;
+      }
+      .icon-btns-horizontal-icon {
+
+      }
+      .icon-btns-horizontal-title {
+        //color: @lightblue;
+        transition: all @slow-transition-time ease-in-out;
+      }
+      svg.icon-right-arrow {
+        transition: all @slow-transition-time ease-in-out;
+        path{
+          transition: all @slow-transition-time ease-in-out;
+        }
+      }
+
+      &:hover {
+        svg.icon-btns-horizontal-icon path {
+          fill: @lightblue;
+        }
+        .icon-btns-horizontal-title {
+          color: @lightblue;
+        }
+        svg.icon-right-arrow {
+          transform: translateX(5px);
+          path{
+            stroke: @lightblue;
+          }
+        }
+      }
+
+      .icon-btns-horizontal-icon {
+        margin: 0 0 0 1rem;
+      }
+
+      .icon-btns-horizontal-title {
+        margin: 0 1rem 0 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+
+      }
+    }
+  }
+
+}

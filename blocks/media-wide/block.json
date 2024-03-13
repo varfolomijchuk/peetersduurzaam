@@ -1,0 +1,18 @@
+{
+    "name": "acf/media-wide",
+    "title": "Full Width Media",
+    "description": "Ful Width Embeded Video or Image",
+    "style": [
+        "file:./media-wide.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Advantages block"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "media-wide.php"
+    },
+    "align": "full"
+}

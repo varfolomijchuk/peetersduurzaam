@@ -1,0 +1,154 @@
+@import "../../assets/css/variables";
+
+.projects-with-testimonial {
+    padding: 6rem 0;
+    .top-container {
+        display: flex;
+        gap: 4rem;
+        margin-bottom: 1.5rem;
+        .top-left {
+            .p-subtitle {
+                color: @darkgreen;
+            }
+        }
+        .top-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+    .projects-wrapper {
+        display: flex;
+        gap: 2rem;
+        .project {
+            position: relative;
+            width: 424px;
+            height: 341px;
+            overflow: hidden;
+            border-radius: @radius-middle;
+            .taxonomy-btns {
+                display: flex;
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+                a {
+                    border-radius: 40px;
+                }
+            }
+            a {
+                display: block;
+                border-radius: @radius-middle;
+                overflow: hidden;
+                h4 {
+                    color: @white;
+                    font-weight: 600;
+                    position: absolute;
+                    bottom: 4rem;
+                    left: 2rem;
+                }
+            }
+            img {
+                border-radius: 10px;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+    }
+    .testimonial-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 424px;
+        .top-testimonial {
+            display: flex;
+            .mini-header {
+                max-width: 212px;
+                .mini-subtitle {
+                    font-size: .75rem;
+                    color: @darkgreen;
+                    font-weight: 600;
+                }
+                .mini-title {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+        .testimonial {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: @white;
+            padding: 1.8rem;
+            border-radius: @radius-middle;
+            height: 240px;
+            .name-score {
+                .customer-name {
+                    margin-bottom: 0;
+                    line-height: .75rem;
+                }
+                .customer-score {
+                    margin-bottom: 0;
+                }
+            }
+
+            .wp-google-reviews {
+                .wp-google-time,
+                .wp-google-left {
+                    display: none !important;
+                }
+
+                .wp-google-right {
+                    display: flex !important;
+                    flex-direction: column-reverse;
+                    max-width: 100% !important;
+
+                    .wp-google-name {
+                        color: @body !important;
+                        font-weight: normal !important;
+                        font-family: @default-font !important;
+                        line-height: 160% !important;
+                        font-size: 16px !important;
+                    }
+
+                    .wp-google-feedback {
+                        display: flex !important;
+                        flex-direction: column-reverse;
+
+                        .wp-google-text {
+                            max-height: 100px !important;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 4;
+                            -webkit-box-orient: vertical;
+                            font-family: @default-font !important;
+                            color: @body !important;
+                            font-size: 1rem !important;
+                            line-height: 145% !important;
+                            margin-bottom: 1.875rem !important;
+                        }
+                    }
+                }
+            }
+            .wp-google-url {
+                display: none;
+            }
+        }
+    }
+}
+//Page specific customization
+@media only screen and (max-width: 768px) {
+    .projects-with-testimonial {
+        .top-container {
+            display: block;
+        }
+        .projects-wrapper {
+            display: block;
+            .project {
+                width: 100%;
+            }
+        }
+        .testimonial-wrapper {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,150 @@
+@import (reference) "variables";
+footer {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+}
+footer.container-fluid {
+  p, span, a {
+    font-family: @default-font;
+    color: @light;
+  }
+  .footer-top {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    .footer-logo {
+      width: 174px;
+      margin-bottom: 1.5rem;
+    }
+    h5 {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    h6 {
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: .2rem
+    }
+    .info-mail {
+      span {
+        margin-left: 3rem;
+      }
+
+    }
+  }
+  .footer-middle {
+    border-top: 1px solid lighten(@light, 20%);
+    padding: 2.75rem 0 1rem 0;
+    .footer-menus {
+
+      h4 {
+        font-size: 1.125rem;
+      }
+      ul {
+        padding: 0;
+        li {
+          list-style: none;
+          a {
+            font-size: .875rem;
+          }
+        }
+      }
+
+    }
+  }
+
+}
+.footer-bottom {
+  border-top: 1px solid lighten(@light, 20%);
+  padding: 2rem 0 1rem 0;
+  font-size: .75rem;
+  color: @light;
+}
+.social-icons {
+  display: inline-flex;
+  gap: 10px;
+  a {
+    background: @lightgreen;
+    border: none;
+    border-radius: 34px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    &:hover {
+      background: @darkblue;
+    }
+  }
+}
+
+.copyright-links {
+  ul {
+    display: inline-flex;
+    gap: 50px;
+    padding-left:0;
+    li {
+        list-style: none;
+    }
+  }
+}
+
+.trienekens-link {
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  footer.container-fluid {
+    padding: 0 1rem;
+    .footer-top {
+      .info-mail {
+        margin-top: 1rem;
+        .phone-dot {
+          display: block;
+          margin: 1rem 0 0 0;
+        }
+      }
+      p {
+        font-size: .875rem;
+      }
+      h5 {
+        font-size: 1.125rem;
+        font-weight: @font-semibold;
+        margin-bottom: .5rem;
+      }
+      h6 {
+        font-size: 1rem;
+        font-weight: @font-semibold;
+      }
+    }
+    .footer-middle {
+      border-top: none;
+      padding-top: 1rem;
+      .footer-menus {
+        h6 {
+          background-color: @light-background;
+          padding: 1rem;
+          border-radius: @radius-small;
+        }
+        nav {
+          padding-left: 1rem;
+        }
+      }
+    }
+    .footer-bottom {
+      font-size: .625rem;
+      .copyright-links {
+        ul {
+          gap: 0.5rem;
+          justify-content: space-between;
+          width: 100%;
+        }
+      }
+      .trienekens-link {
+        text-align:center;
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+@import "../../assets/css/variables";
+
+.profiles {
+    margin: 90px 0;
+    padding-bottom: 4rem;
+    .block-header {
+        .subtitle {
+            font-weight: 600;
+            color: @lightgreen;
+        }
+
+        .title {
+            font-weight: 600;
+            margin-bottom: 3rem;
+        }
+    }
+    .carousel-wrapper {
+        .profile-container {
+            position: relative;
+            padding-left: 3rem;
+            height: 437px;
+            max-width: 361px;
+            .img-wrapper {
+                padding-left: 2rem;
+                img {
+                    border-radius: @radius-large;
+                    object-fit: cover;
+                    width: 100%;
+                    aspect-ratio: 9/14;
+                }
+            }
+
+            .info {
+                position:absolute;
+                bottom: 72px;
+                border-radius: @radius-small;
+                background-color: @lightblue;
+                width: 281px;
+                height: 87px;
+                padding: 1rem 2rem;
+                .profile-name {
+                    color: @white;
+                    font-weight: 600;
+                }
+                .profile-role {
+                    color: @white;
+                    font-size: 1rem;
+                    font-weight: @font-normal;
+                }
+            }
+            .contacts {
+                display: inline-flex;
+                gap: 1rem;
+                position: absolute;
+                bottom: 20px;
+                left: 6rem;
+                a {
+                    border-radius: 17px;
+                    display: flex;
+                    width: 34px;
+                    height: 34px;
+                    background-color: @white;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .slick-arrow {
+            width: 48px;
+            height: 48px;
+            top : -60px;
+        }
+        .slick-prev {
+            left: 81%;
+        }
+        .slick-next {
+            right: 120px;
+        }
+    }
+    &.right-edge {
+        .slick-list {
+            margin-right: calc((100% - 100vw)/2 + 8px);
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .profiles {
+        .container {
+            .carousel-wrapper {
+                .profile-container {
+                    padding-left: 0;
+                    padding-right: 40px;
+                }
+                .slick-prev {
+                    left: inherit;
+                    right: 60px;
+                }
+                .slick-next {
+                    right:0;
+                }
+            }
+        }
+    }
+}

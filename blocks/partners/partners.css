@@ -1,0 +1,56 @@
+.partners {
+  margin-bottom: 6.25rem;
+}
+.partners a.partners-item {
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-bottom: 1.75rem;
+}
+.partners a.partners-item:hover .more-info {
+  color: #B7CD00;
+}
+.partners a.partners-item:hover .more-info svg path {
+  stroke: #B7CD00;
+}
+.partners a.partners-item .top-image-wrapper {
+  height: 200px;
+  border-bottom: 1px solid #dde1e7;
+}
+.partners a.partners-item .top-image-wrapper img.partner-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+.partners a.partners-item .partner-title {
+  font-weight: 600;
+  margin: 1.8rem;
+}
+.partners a.partners-item .partner-description {
+  color: #4C6078;
+  padding: 0 1.8rem;
+}
+.partners a.partners-item .more-info {
+  font-family: "Mont", sans_serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #203669;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dde1e7;
+  padding: 1.3rem 1.6rem;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.partners a.partners-item .more-info svg path {
+  stroke: #203669;
+}
+.partners.shadowless a.partners-item {
+  height: 520px;
+  box-shadow: none;
+}
+/*# sourceMappingURL=partners.css.map */

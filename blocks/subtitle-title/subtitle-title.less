@@ -1,0 +1,51 @@
+@import "../../assets/css/variables";
+
+.subtitle-title {
+padding: 6.25rem 0 3rem 0;
+  .p-subtitle {
+    font-weight: 600;
+  }
+  .p-title {
+    font-weight: 600;
+  }
+  .bordered-img-container {
+    border: 1px solid @light-background;
+    border-radius: @radius-small;
+    padding: 10px 10px;
+    margin:0 10px;
+    width: 200px;
+    height: 167px;
+    display:flex;
+    align-items: center;
+    img {
+      margin:0 auto;
+    }
+
+  }
+  //Page specific customization
+ &.zonnepanelen-block {
+   padding-bottom: 0;
+   .container {
+     padding: 0 90px;
+     img {
+       width:300px;
+       height: auto;
+     }
+   }
+ }
+}
+//Page specific customization
+
+.page-id-2 {
+  .subtitle-title.ervaring-van-onze-klanten .container>div {
+    justify-content: start !important;
+    .bordered-img-container {
+      border: none;
+      img {
+        margin-bottom: auto;
+        margin-top: 20px;
+      }
+    }
+  }
+
+}

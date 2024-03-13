@@ -1,0 +1,51 @@
+@import "../../assets/css/variables";
+
+.vacancy-overview {
+  margin: 4rem 0;
+  .vacancy-item {
+    border-bottom: 1px solid #eeeeee;
+    padding: 3rem 0;
+
+    .title-container {
+      border-right: 1px solid #eeeeee;
+      padding: 1rem 1rem 2rem 0;
+
+      .job-title {
+        font-weight: 600;
+      }
+
+      .job-description {
+        color: @body;
+      }
+    }
+  }
+
+  .location-container {
+    padding-left: 4rem;
+    .location {
+      svg {
+        margin-left: .15rem;
+        margin-right: 2rem;
+      }
+    }
+
+    .hours-per-week {
+      svg {
+        margin-right: 1.5rem;
+      }
+    }
+
+  }
+
+
+}
+// Page Specific styles
+@media only screen and (max-width: 768px) {
+  .vacancy-overview {
+    .location-container {
+      padding-left: 0;
+    }
+  }
+}
+
+

@@ -1,0 +1,43 @@
+.subtitle-title {
+  padding: 6.25rem 0 3rem 0;
+}
+.subtitle-title .p-subtitle {
+  font-weight: 600;
+}
+.subtitle-title .p-title {
+  font-weight: 600;
+}
+.subtitle-title .bordered-img-container {
+  border: 1px solid #F4F4F4;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 0 10px;
+  width: 200px;
+  height: 167px;
+  display: flex;
+  align-items: center;
+}
+.subtitle-title .bordered-img-container img {
+  margin: 0 auto;
+}
+.subtitle-title.zonnepanelen-block {
+  padding-bottom: 0;
+}
+.subtitle-title.zonnepanelen-block .container {
+  padding: 0 90px;
+}
+.subtitle-title.zonnepanelen-block .container img {
+  width: 300px;
+  height: auto;
+}
+.page-id-2 .subtitle-title.ervaring-van-onze-klanten .container > div {
+  justify-content: start !important;
+}
+.page-id-2 .subtitle-title.ervaring-van-onze-klanten .container > div .bordered-img-container {
+  border: none;
+}
+.page-id-2 .subtitle-title.ervaring-van-onze-klanten .container > div .bordered-img-container img {
+  margin-bottom: auto;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=subtitle-title.css.map */

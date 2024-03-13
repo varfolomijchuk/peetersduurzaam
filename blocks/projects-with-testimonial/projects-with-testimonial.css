@@ -1,0 +1,174 @@
+.projects-with-testimonial {
+  padding: 6rem 0;
+}
+.projects-with-testimonial .top-container {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 1.5rem;
+}
+.projects-with-testimonial .top-container .top-left .p-subtitle {
+  color: #006633;
+}
+.projects-with-testimonial .top-container .top-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.projects-with-testimonial .projects-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.projects-with-testimonial .projects-wrapper .project {
+  position: relative;
+  width: 424px;
+  height: 341px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.projects-with-testimonial .projects-wrapper .project .taxonomy-btns {
+  display: flex;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.projects-with-testimonial .projects-wrapper .project .taxonomy-btns a {
+  border-radius: 40px;
+}
+.projects-with-testimonial .projects-wrapper .project a {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.projects-with-testimonial .projects-wrapper .project a h4 {
+  color: #FFFFFF;
+  font-weight: 600;
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  z-index: 2;
+}
+.projects-with-testimonial .projects-wrapper .project img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
+.projects-with-testimonial .projects-wrapper .project:hover img {
+  transform: scale(1.035);
+}
+.projects-with-testimonial .testimonial-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 424px;
+}
+.projects-with-testimonial .testimonial-wrapper .top-testimonial {
+  display: flex;
+}
+.projects-with-testimonial .testimonial-wrapper .top-testimonial .mini-header {
+  max-width: 212px;
+}
+.projects-with-testimonial .testimonial-wrapper .top-testimonial .mini-header .mini-subtitle {
+  font-size: 0.75rem;
+  color: #006633;
+  font-weight: 600;
+}
+.projects-with-testimonial .testimonial-wrapper .top-testimonial .mini-header .mini-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 1.8rem;
+  border-radius: 10px;
+  height: 185px;
+}
+
+.projects-with-testimonial .testimonial-wrapper .wp-gr.wpac .wp-google-review .wp-google-stars {
+	padding-top: unset !important;
+}
+
+.projects-with-testimonial .testimonial-wrapper .testimonial .name-score .customer-name {
+  margin-bottom: 0;
+  line-height: 0.75rem;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .name-score .customer-score {
+  margin-bottom: 0;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-reviews .wp-google-time,
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-reviews .wp-google-left {
+  display: none !important;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-reviews .wp-google-right {
+  display: flex !important;
+  flex-direction: column-reverse;
+  width: inherit !important;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-reviews .wp-google-right .wp-google-name {
+  color: #4C6078 !important;
+  font-weight: normal !important;
+  font-family: "Mont", sans_serif !important;
+  line-height: 160% !important;
+  font-size: 16px !important;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-reviews .wp-google-right .wp-google-feedback {
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-reviews .wp-google-right .wp-google-feedback .wp-google-text {
+  max-height: 100px !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  font-family: "Mont", sans_serif !important;
+  color: #4C6078 !important;
+  font-size: 1rem !important;
+  line-height: 145% !important;
+  margin-bottom: 1.875rem !important;
+}
+.projects-with-testimonial .testimonial-wrapper .testimonial .wp-google-url {
+  display: none;
+}
+
+.projects-with-testimonial .ti-widget.ti-goog .ti-widget-container {
+	background-color: #FFFFFF !important;
+    border-radius: 10px;
+}
+
+.projects-with-testimonial .ti-widget.ti-goog .ti-stars {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-inline-start: 25px !important;
+}
+
+.projects-with-testimonial .ti-widget.ti-goog .ti-stars span.ti-rating {
+	order: 5;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-with-testimonial .top-container {
+    display: block;
+  }
+  .projects-with-testimonial .projects-wrapper {
+    display: block;
+  }
+  .projects-with-testimonial .projects-wrapper .project {
+    width: 100%;
+	margin-bottom: 16px;
+  }
+  .projects-with-testimonial .testimonial-wrapper {
+    width: 100%;
+	margin-top: 24px;
+  }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {	
+	.projects-with-testimonial .ti-widget.ti-goog .ti-text {
+		margin-top: unset !important;
+	}
+}
+/*# sourceMappingURL=projects-with-testimonial.css.map */

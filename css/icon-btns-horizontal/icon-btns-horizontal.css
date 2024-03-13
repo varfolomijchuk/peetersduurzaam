@@ -1,0 +1,59 @@
+.icon-btns-horizontal {
+  margin: -40px 0 40px 0;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper {
+  margin-bottom: 1rem;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  height: 76px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container svg.icon-btns-horizontal-icon path {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container .icon-btns-horizontal-title {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container svg.icon-right-arrow {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container svg.icon-right-arrow path {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container:hover svg.icon-btns-horizontal-icon path {
+  fill: #36A9E1;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container:hover .icon-btns-horizontal-title {
+  color: #36A9E1;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container:hover svg.icon-right-arrow {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container:hover svg.icon-right-arrow path {
+  stroke: #36A9E1;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container .icon-btns-horizontal-icon {
+  margin: 0 0 0 1rem;
+}
+.icon-btns-horizontal .icon-btns-horizontal-wrapper .icon-btns-horizontal-container .icon-btns-horizontal-title {
+  margin: 0 1rem 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=icon-btns-horizontal.css.map */

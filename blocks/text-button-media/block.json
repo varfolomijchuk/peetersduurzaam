@@ -1,0 +1,18 @@
+{
+    "name": "acf/text-button-media",
+    "title": "Title, description, button and media",
+    "description": "Full width block with title, subtitle, description, button and media on the right",
+    "style": [
+        "file:./text-button-media.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Icon Buttons"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "text-button-media.php"
+    },
+    "align": "full"
+}

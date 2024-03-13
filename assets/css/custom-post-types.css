@@ -1,0 +1,369 @@
+.vacature-template-default .single-vacature section.job-details-section {
+  background-color: #edffe7;
+  padding: 4rem 0;
+}
+.vacature-template-default
+  .single-vacature
+  section.job-details-section
+  .job-details
+  .item {
+  padding-left: 4rem;
+}
+.vacature-template-default
+  .single-vacature
+  section.job-details-section
+  .job-details
+  .item
+  h2 {
+  font-weight: 600;
+}
+.vacature-template-default
+  .single-vacature
+  section.job-details-section
+  .job-details
+  .item
+  h6 {
+  font-weight: 400;
+}
+.vacature-template-default .single-vacature .breadcrumb {
+  margin-top: 2rem;
+}
+.vacature-template-default .single-vacature .breadcrumb span {
+  padding: 0 1rem;
+  border-left: 1px solid #9fa5af;
+  color: #36a9e1;
+}
+.vacature-template-default .single-vacature .breadcrumb span:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+.vacature-template-default .single-vacature .breadcrumb span a {
+  color: #4c6078;
+}
+.vacature-template-default .single-vacature .job-description {
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+.vacature-template-default .single-vacature .job-description p {
+  color: #4c6078;
+}
+.vacature-template-default .single-vacature .direct-solliciteren {
+  background-color: #f5f5f7;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.vacature-template-default .single-vacature .direct-solliciteren h5 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.vacature-template-default .single-vacature .direct-solliciteren p {
+  color: #4c6078;
+}
+.vacature-template-default .single-vacature .reviews-carousel {
+  padding-bottom: 15rem;
+}
+
+.vacature-template-default
+  .single-vacature
+  .reviews-carousel
+  .single-carousel-item {
+  background-color: #f5f5f7;
+}
+.vacature-template-default .single-vacature section.vacature-offer-list h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.vacature-template-default .single-vacature section.vacature-offer-list ul {
+  padding-left: 1rem;
+}
+.vacature-template-default .single-vacature section.vacature-offer-list ul li {
+  color: #4c6078;
+  line-height: 2.5rem;
+  list-style: none;
+}
+.vacature-template-default
+  .single-vacature
+  section.vacature-offer-list
+  ul
+  li::before {
+  content: "\2022";
+  color: #b7cd00;
+  display: inline-block;
+  margin-right: 2rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.vacature-template-default .single-vacature section.image-carousel {
+  margin-top: 4rem;
+}
+.projecten-template-default .single-project section.project-details-section {
+  background-color: #edffe7;
+  padding: 4rem 0;
+  margin-top: 5.438rem;
+  margin-bottom: 2.938rem;
+}
+.projecten-template-default
+  .single-project
+  section.project-details-section
+  .project-details
+  .item {
+  padding-left: 4rem;
+}
+.projecten-template-default
+  .single-project
+  section.project-details-section
+  .project-details
+  .item
+  h2 {
+  font-weight: 600;
+}
+.projecten-template-default
+  .single-project
+  section.project-details-section
+  .project-details
+  .item
+  h6 {
+  font-weight: 400;
+}
+.projecten-template-default .single-project .breadcrumb {
+  margin-top: 2rem;
+}
+.projecten-template-default .single-project .breadcrumb span {
+  padding: 0 1rem;
+  border-left: 1px solid #9fa5af;
+  color: #36a9e1;
+}
+.projecten-template-default .single-project .breadcrumb span:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+.projecten-template-default .single-project .breadcrumb span a {
+  color: #4c6078;
+}
+.projecten-template-default .single-project .project-description {
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+.projecten-template-default .single-project .project-description p {
+  color: #4c6078;
+  font-size: 1.5rem;
+}
+.projecten-template-default .single-project .project-features {
+  background-color: #f5f5f7;
+  padding: 2rem 1rem 1rem 2rem;
+  border-radius: 5px;
+}
+.projecten-template-default
+  .single-project
+  .project-features
+  table
+  td.feature-caption {
+  font-weight: 600;
+}
+.projecten-template-default
+  .single-project
+  .project-features
+  table
+  td.feature-data {
+  font-size: 0.875rem;
+}
+.projecten-template-default .single-project section.image-carousel {
+  margin-top: 6.938rem;
+}
+.page-template-page-projecten .single-project a {
+  position: relative;
+}
+@media screen and (min-width: 769px) {
+  .projecten-template-default
+    .single-project
+    section.image-carousel
+    .container {
+    overflow: visible;
+
+    .slick-next {
+      right: 0;
+    }
+
+    .slick-prev {
+      left: 0;
+    }
+
+    > .container-fluid,
+    .slick-list {
+      overflow: visible;
+    }
+  }
+
+  .projecten-template-default {
+    main {
+      .mega-block:last-child {
+        margin-top: 4.563rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .vacature-template-default .single-vacature section {
+    padding: 1rem;
+  }
+  .vacature-template-default .single-vacature section .breadcrumb {
+    font-size: 0.75rem;
+    margin-bottom: 0.1rem;
+  }
+  .vacature-template-default .single-vacature .job-description {
+    padding: 1rem;
+  }
+  .vacature-template-default .single-vacature .job-description p {
+    color: #4c6078;
+    font-size: 1rem;
+  }
+  .vacature-template-default .single-vacature section.vacature-offer-list h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .vacature-template-default .single-vacature section.vacature-offer-list ul {
+    padding-left: 0;
+  }
+  .vacature-template-default
+    .single-vacature
+    section.vacature-offer-list
+    ul
+    li {
+    color: #4c6078;
+    line-height: 1.75rem;
+    list-style: none;
+  }
+  .vacature-template-default
+    .single-vacature
+    section.vacature-offer-list
+    ul
+    li::before {
+    content: "\2022";
+    color: #b7cd00;
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+  .vacature-template-default .contact-form-advanced .contact-form-wrapper {
+    margin-top: 0;
+  }
+  .page-template-archive-post section .container {
+    padding: 0 0.75rem;
+  }
+
+  .projecten-template-default .single-project section {
+    padding: 1rem;
+  }
+  .projecten-template-default .single-project section .breadcrumb {
+    font-size: 0.75rem;
+    margin-bottom: 0.1rem;
+  }
+  .projecten-template-default .single-project section .project-description {
+    padding: 1rem;
+  }
+  .projecten-template-default .single-project section .project-description p {
+    color: #4c6078;
+    font-size: 1rem;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .sub-title-headers {
+    width: 100% !important;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .sub-title-headers
+    h3.p-title {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .megablock-right {
+    width: 100%;
+    margin-left: 0.1rem;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .megablock-right.video
+    video {
+    width: 100%;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .megablock-right.video
+    #play-btn {
+    bottom: 9px;
+    left: 0;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .megablock-right
+    img {
+    max-width: 100%;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .megablock-right
+    .bordered-img-container {
+    width: 100px;
+    height: 100px;
+  }
+  .projecten-template-default
+    .single-project
+    section.mega-block
+    .megablock-right
+    .bordered-img-container
+    img {
+    width: 90%;
+  }
+  .post-filter-section form.post-filter .form-inner-wrapper {
+    flex-direction: column;
+  }
+  .post-filter-section form.post-filter .form-inner-wrapper select {
+    padding: 0.25rem 1rem;
+  }
+  .post-filter-section
+    form.post-filter
+    .form-inner-wrapper
+    label.choose-date-label {
+    display: none;
+  }
+  .post-filter-section
+    form.post-filter
+    .form-inner-wrapper
+    button.p-btn-primary {
+    width: 100%;
+  }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .vacature-template-default .single-vacature .reviews-carousel {
+    padding-bottom: 3rem;
+  }
+
+  .projecten-template-default .single-project section {
+    margin-top: 0rem !important;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+  }
+
+  .projecten-template-default .single-project section.free-consultation {
+    padding-bottom: 1rem;
+  }
+
+  .projecten-template-default .single-project section.mega-block {
+    margin-top: 4rem !important;
+  }
+}

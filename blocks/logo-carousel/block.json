@@ -1,0 +1,18 @@
+{
+    "name": "acf/logo-carousel",
+    "title": "Logo Carousel",
+    "description": "Logo Carousel",
+    "style": [
+        "file:./logo-carousel.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Logo carousel"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "logo-carousel.php"
+    },
+    "align": "full"
+}

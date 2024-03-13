@@ -1,0 +1,42 @@
+@import "../../assets/css/variables";
+.image-carousel {
+  margin-bottom: 4rem;
+  .slick-list{
+    .carousel-img-container {
+      transform: scale(.85);
+      transition: all @slow-transition-time cubic-bezier(0.550, 0.085, 0.680, 0.530);
+      img {
+        margin:0 auto;
+        border-radius: @radius-middle;
+        max-width: 1190px;
+        aspect-ratio: 2;
+        object-fit: cover;
+      }
+      &.slick-center {
+        transform: scaleX(1.1);
+        padding: 0;
+      }
+      &.slick-active {
+      }
+    }
+  }
+  .slick-prev {
+    left: -35px;
+  }
+  .slick-next {
+    right: -25px;
+  }
+  &.werkwijze {
+    margin-top: 8rem;
+  }
+  &.right-edge {
+    .slick-list {
+      margin-right: calc((100% - 100vw)/2 + 8px);
+    }
+  }
+  &.left-edge {
+    .slick-list {
+      margin-left: calc((100% - 100vw)/2 - 8px);
+    }
+  }
+}

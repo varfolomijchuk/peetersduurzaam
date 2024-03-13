@@ -1,0 +1,33 @@
+.vacancy-overview {
+  margin: 4rem 0;
+}
+.vacancy-overview .vacancy-item {
+  border-bottom: 1px solid #eeeeee;
+  padding: 3rem 0;
+}
+.vacancy-overview .vacancy-item .title-container {
+  border-right: 1px solid #eeeeee;
+  padding: 1rem 1rem 2rem 0;
+}
+.vacancy-overview .vacancy-item .title-container .job-title {
+  font-weight: 600;
+}
+.vacancy-overview .vacancy-item .title-container .job-description {
+  color: #4C6078;
+}
+.vacancy-overview .location-container {
+  padding-left: 4rem;
+}
+.vacancy-overview .location-container .location svg {
+  margin-left: 0.15rem;
+  margin-right: 2rem;
+}
+.vacancy-overview .location-container .hours-per-week svg {
+  margin-right: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .vacancy-overview .location-container {
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=vacancy-overview.css.map */

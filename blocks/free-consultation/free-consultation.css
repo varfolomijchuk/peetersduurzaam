@@ -1,0 +1,49 @@
+.free-consultation {
+  margin: 8rem 0 4rem 0;
+}
+
+@media (max-width: 1200px) {
+	.free-consultation.projecten-template {
+		margin: 6rem 0 15rem 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.free-consultation.projecten-template {
+		margin: 4rem 0 8rem 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.free-consultation.projecten-template {
+		margin: 4rem 0;
+	}
+
+	.free-consultation.projecten-template .heading {
+		margin-right: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.free-consultation .heading {
+  font-weight: 600;
+  margin-right: 1rem;
+  width: 310px;
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.free-consultation {
+		margin: 1rem 0 4rem 0;
+	}
+	
+	.free-consultation .heading {
+		width: 100%;
+		margin-right: 0;
+		text-align: center;
+	}
+}
+
+
+/*# sourceMappingURL=free-consultation.css.map */

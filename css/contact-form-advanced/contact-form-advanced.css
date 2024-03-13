@@ -1,0 +1,222 @@
+.contact-form-advanced {
+  padding-bottom: 60px;
+}
+.contact-form-advanced .container .contact-subtitle {
+  font-weight: 600;
+  color: #006633;
+}
+.contact-form-advanced .container .contact-title {
+  color: #0D1A29;
+  font-weight: 600;
+}
+.contact-form-advanced .container .contact-description {
+  color: #4C6078;
+  margin: 1rem 1rem 2.5rem 0;
+}
+.contact-form-advanced .container .contact-form-wrapper {
+  margin-top: -200px;
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+}
+.contact-form-advanced .container .contact-form-wrapper .contact-form-title {
+  color: #0D1A29;
+  font-weight: 600;
+}
+.contact-form-advanced .container .contact-form-wrapper .contact-form-description {
+  color: #4C6078;
+}
+.contact-form-advanced .container .contact-form-wrapper .wpforms-field-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+}
+.contact-form-advanced .container .contact-form-wrapper .wpforms-field-container .wpforms-field {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.contact-form-advanced .container .contact-form-wrapper .wpforms-field-container .wpforms-field input {
+  max-width: 100%;
+}
+.contact-form-advanced .container .contact-form-wrapper .wpforms-field-container .wpforms-uploader {
+  border: none;
+  background-color: #F5F5F7;
+  padding: 1rem;
+}
+.contact-form-advanced .container .contact-form-wrapper .wpforms-field-container .wpforms-uploader .dz-message {
+  border: 1px dashed #d9d9e0;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+}
+.contact-form-advanced .container .contact-form-wrapper .wpforms-field-container .wpforms-uploader .dz-message svg {
+  display: none;
+}
+.contact-form-advanced .container .contact-form-wrapper button.wpforms-submit {
+  font-family: "Mont", sans_serif;
+  font-weight: 600;
+  background-color: #203669 !important;
+  height: 55px;
+  border-radius: 5px;
+}
+.contact-form-advanced .container .contact-form-wrapper legend {
+  display: none;
+}
+.contact-form-advanced .container .contact-form-wrapper input[type='text'],
+.contact-form-advanced .container .contact-form-wrapper input[type='email'],
+.contact-form-advanced .container .contact-form-wrapper textarea {
+  color: #0D1A29;
+  background-color: #f2f3f5;
+  border: none;
+}
+.contact-form-advanced .container .contact-form-wrapper input::-webkit-input-placeholder, .contact-form-advanced .container .contact-form-wrapper textarea::-webkit-input-placeholder {
+  color: #0D1A29;
+  opacity: 1;
+}
+.contact-form-advanced .container .contact-form-wrapper input::-moz-placeholder, .contact-form-advanced .container .contact-form-wrapper textarea::-moz-placeholder {
+  color: #0D1A29;
+  opacity: 1;
+}
+.contact-form-advanced .container .contact-form-wrapper input:-ms-input-placeholder, .contact-form-advanced .container .contact-form-wrapper textarea:-ms-input-placeholder {
+  color: #0D1A29;
+  opacity: 1;
+}
+.contact-form-advanced .container .contact-form-wrapper input::-ms-input-placeholder, .contact-form-advanced .container .contact-form-wrapper textarea::-ms-input-placeholder {
+  color: #0D1A29;
+  opacity: 1;
+}
+.contact-form-advanced .container .contact-form-wrapper input::placeholder,
+.contact-form-advanced .container .contact-form-wrapper textarea::placeholder {
+  color: #0D1A29;
+  opacity: 1;
+}
+.contact-form-advanced .background-image-container {
+  height: 678px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.contact-form-advanced .reviews-wrapper {
+  margin-top: 4rem;
+}
+.contact-form-advanced .reviews-wrapper .ti-widget-container {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  margin: 0;
+}
+.contact-form-advanced .contact-google-reviews-carousel {
+  max-width: 533px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr .grw-slider:not(.wp-dark) .grw-slider-review-inner.grw-slider-review-border {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05) !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr .grw-dot {
+  background-color: #9FA5AF !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr .grw-dot.active {
+  background-color: #36A9E1 !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr:not(.wp-dark) .grw-review-inner.grw-backgnd {
+  background-color: #FFFFFF !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac {
+  margin: 0 auto !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner svg {
+  display: none;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .wp-google-feedback {
+  height: auto !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .wp-google-feedback .wp-google-text {
+  font-family: "Mont", sans_serif !important;
+  color: var(--Body, #4C6078) !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 160% !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .grw-review-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .grw-review-inner .wp-google-left .wp-google-name {
+  color: #4C6078 !important;
+  font-weight: 600 !important;
+  font-family: "Mont", sans_serif !important;
+  line-height: 160% !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .grw-review-inner .wp-google-left .wp-google-time {
+  display: none;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .grw-review-inner .wp-google-left .rplg-review-avatar {
+  display: none;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-content .grw-content-inner .grw-reviews .grw-review .grw-review-inner .wp-google-stars .wp-star svg path {
+  fill: #FBBC05;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews .grw-slider-review-inner {
+  margin: 5px !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews .grw-slider-review-inner .wp-google-left a {
+  color: #4C6078 !important;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews .grw-slider-review-inner .wp-google-left img,
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews .grw-slider-review-inner .wp-google-left .wp-google-time {
+  display: none;
+}
+.contact-form-advanced .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews .grw-slider-review-inner .wp-star svg path {
+  fill: #FBBC05;
+}
+@media only screen and (max-width: 768px) {
+  .contact-form-advanced .container .contact-google-reviews-carousel .wp-gr .grw-slider:not(.wp-dark) .grw-slider-review-inner.grw-slider-review-border {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05) !important;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  .contact-form-advanced .container .contact-google-reviews-carousel .wp-gr.wpac .grw-slider .grw-slider-reviews {
+    width: 100% !important;
+  }
+  .contact-form-advanced .container .contact-subtitle {
+    font-size: 1rem;
+    margin-top: 4rem;
+  }
+  .contact-form-advanced .container .contact-title {
+    font-size: 1.5rem;
+  }
+  .contact-form-advanced .container .contact-form-wrapper .contact-form-title {
+    font-size: 1.5rem;
+  }
+  .contact-form-advanced .container .contact-form-wrapper div.wpforms-container-full {
+    margin-bottom: 0;
+  }
+  .contact-form-advanced .container .contact-form-wrapper .wpforms-field-container .wpforms-field input {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=contact-form-advanced.css.map */

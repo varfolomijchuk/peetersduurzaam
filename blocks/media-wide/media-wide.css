@@ -1,0 +1,117 @@
+.media-wide .p-video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 750px;
+}
+.media-wide .p-video-container .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.media-wide .p-video-container .video-caption {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  padding: 1rem;
+  width: 60%;
+}
+.media-wide .p-video-container .video-caption h4 {
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
+}
+.media-wide .wide-image-wrapper {
+  height: 510px;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  > * {
+    z-index: 2;
+  }
+}
+.media-wide .wide-image-wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.media-wide .wide-image-wrapper .image-caption {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  padding: 1rem;
+  width: 60%;
+}
+.media-wide .wide-image-wrapper .image-caption h4 {
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
+}
+.media-wide .wide-image-wrapper .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.media-wide .wide-image-wrapper .title-container .page-title {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 4.5rem;
+  font-weight: 700;
+  max-width: 720px;
+}
+.media-wide .wide-image-wrapper .title-container .personal-advice {
+  width: 424px;
+  height: 291px;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: #203669;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.media-wide .wide-image-wrapper .title-container .personal-advice h4 {
+  color: #ffffff;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .media-wide .wide-image-wrapper .title-container .page-title {
+    font-size: 2rem;
+  }
+  .media-wide .wide-image-wrapper .image-caption {
+    border-top-right-radius: 5px;
+  }
+  .media-wide .wide-image-wrapper .image-caption h4 {
+    font-size: 1.125rem;
+    text-align: left;
+  }
+  .media-wide .p-video-container {
+    padding-bottom: 650px;
+  }
+  .media-wide .p-video-container .video-caption {
+    border-top-right-radius: 5px;
+  }
+  .media-wide .p-video-container .video-caption h4 {
+    font-size: 1.125rem;
+  }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .media-wide .p-video-container .video-caption h4 {
+    text-align: left;
+  }
+}

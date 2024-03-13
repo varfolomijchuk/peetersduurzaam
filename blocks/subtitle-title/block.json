@@ -1,0 +1,18 @@
+{
+    "name": "acf/subtitle-title",
+    "title": "Title with subtitle above",
+    "description": "Customizable Title with subtitle above ",
+    "style": [
+        "file:./subtitle-title.css"
+    ],
+    "category": "text",
+    "icon": "image-filter",
+    "keywords": [
+        "Advantages block"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "subtitle-title.php"
+    },
+    "align": "full"
+}

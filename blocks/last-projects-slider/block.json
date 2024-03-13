@@ -1,0 +1,18 @@
+{
+    "name": "acf/last-projects-slider",
+    "title": "last-projects-slider",
+    "description": "Last Project Slider",
+    "style": [
+        "file:./last-projects-slider.css"
+    ],
+    "category": "common",
+    "icon": "megaphone",
+    "keywords": [
+        "last projects"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "last-projects-slider.php"
+    },
+    "align": "full"
+}

@@ -1,0 +1,122 @@
+@import "../../assets/css/variables";
+
+.text-carousel {
+  padding-top: 2rem;
+
+  .block-header {
+    .subtitle {
+      font-weight: 600;
+      color: @darkgreen;
+    }
+
+    .title {
+      font-weight: 600;
+      margin-bottom: 3rem;
+      max-width: 650px;
+    }
+  }
+
+  .text-carousel-wrapper {
+    .slick-list {
+      .slick-track {
+        display: flex;
+        gap: .75rem;
+        margin-bottom: 4rem;
+
+        .single-carousel-item-wrapper {
+          padding: 0 4px;
+
+          .single-carousel-item {
+            position: relative;
+            overflow: hidden;
+            height: 335px;
+            padding: 2rem;
+            border-radius: @radius-small;
+            background-color: @white;
+            box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.10);
+
+            h5.text-carousel-title {
+              font-weight: 600;
+              color: @dark-titles;
+              margin-bottom: 2.5rem;
+            }
+
+            p.text-carousel-text {
+              color: @body;
+            }
+          }
+        }
+
+      }
+    }
+
+    .slick-prev {
+      width: 48px;
+      height: 48px;
+      top: -75px;
+      left: 980px;
+    }
+
+    .slick-next {
+      width: 48px;
+      height: 48px;
+      top: -75px;
+      right: 180px;
+    }
+  }
+
+  &.single-vacature {
+    .block-header {
+      margin-top: 6rem;
+
+      .subtitle {
+        font-weight: 600;
+        color: @lightgreen;
+      }
+
+      .title {
+        font-weight: 600;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .text-carousel-wrapper .slick-list .slick-track .single-carousel-item-wrapper {
+      .single-carousel-item {
+        height: auto;
+        background-color: @lighter;
+      }
+    }
+  }
+
+  &.indent-left {
+    .block-header, .slick-list {
+      margin-left: @indent-left;
+    }
+  }
+
+  &.right-edge {
+    .slick-list {
+      margin-right: calc((100% - 100vw) / 2 + 8px);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text-carousel {
+    padding-top: 2.5rem;
+    .text-carousel-wrapper .slick-arrow {
+      display: none !important;
+    }
+    .text-carousel-wrapper .slick-list .slick-track .single-carousel-item-wrapper .single-carousel-item {
+        height: 360px;
+      }
+    &.indent-left .block-header, &.text-carousel.indent-left .slick-list {
+      margin-left: inherit !important;
+    }
+  }
+
+
+
+
+
+}

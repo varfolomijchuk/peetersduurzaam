@@ -1,0 +1,63 @@
+.faq {
+  padding: 3rem 0 3rem 0;
+}
+.faq .container .col-lg-10.faq {
+  margin: inherit;
+}
+.faq .p-subtitle {
+  color: #B7CD00;
+}
+.faq .p-title {
+  color: #0D1A29;
+  font-weight: 600;
+}
+.faq .accordion {
+  margin: 2rem 0;
+}
+.faq .accordion .accordion-item {
+  margin-top: 20px;
+  background-color: transparent;
+  border: #9FA5AF;
+  border-radius: 10px;
+}
+.faq .accordion .accordion-button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: inherit;
+  background-color: inherit;
+  -webkit-transition: none;
+  transition: none;
+}
+.faq .accordion .accordion-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.faq .accordion .accordion-button::after {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none"><line y1="15" x2="31" y2="15" stroke="%23B7CD00" stroke-width="2"/><line x1="15" y1="31" x2="15" y2="4.37114e-08" stroke="%23B7CD00" stroke-width="2"/></svg>');
+  background-position: center;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.faq .accordion .accordion-button.collapsed {
+  border-bottom: 1px solid #F5F5F7;
+}
+.faq .accordion .accordion-button.collapsed::after {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none"><line y1="15" x2="31" y2="15" stroke="%23B7CD00" stroke-width="2"/><line x1="15" y1="31" x2="15" y2="4.37114e-08" stroke="%23B7CD00" stroke-width="2"/></svg>');
+  background-position: center;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+@media only screen and (max-width: 768px) {
+  .accordion .accordion-item .accordion-header .accordion-button {
+    font-size: 1.125rem;
+    padding-left: 0;
+  }
+  .accordion .accordion-item .accordion-body {
+    padding-left: 0;
+  }
+  .accordion .accordion-item .accordion-body p {
+    font-size: 0.875rem;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */

@@ -1,0 +1,325 @@
+@import (reference) "variables";
+
+//Vacatures
+.vacature-template-default {
+  .single-vacature {
+    section.job-details-section {
+      background-color: @fluo-green;
+      padding: 4rem 0;
+
+      .job-details {
+        .item {
+          padding-left: 4rem;
+
+          h2 {
+            font-weight: @font-semibold;
+          }
+
+          h6 {
+            font-weight: @font-normal;
+          }
+        }
+      }
+    }
+
+    .breadcrumb {
+      margin-top: 2rem;
+
+      span {
+        padding: 0 1rem;
+        border-left: 1px solid @light;
+        color: @lightblue;
+
+        &:first-child {
+          padding-left: 0;
+          border-left: none;
+        }
+
+        a {
+          color: @body;
+        }
+      }
+    }
+
+    .job-description {
+      padding-right: 4rem;
+      padding-bottom: 2rem;
+
+      p {
+        color: @body;
+        font-size: 1.5rem;
+      }
+    }
+
+    .direct-solliciteren {
+      background-color: @lighter;
+      padding: 2rem;
+      border-radius: @radius-small;
+
+      h5 {
+        color: @black;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+
+      p {
+        color: @body;
+      }
+    }
+
+    .reviews-carousel {
+      padding-bottom: 15rem;
+
+      .single-carousel-item {
+        background-color: @lighter;
+      }
+    }
+
+    section.vacature-offer-list {
+      h2 {
+        font-weight: 600;
+        margin-bottom: 2rem;
+      }
+
+      ul {
+        padding-left: 1rem;
+
+        li {
+          color: @body;
+          line-height: 2.5rem;
+          list-style: none;
+
+          &::before {
+            content: "\2022";
+            color: #B7CD00;
+            display: inline-block;
+            margin-right: 2rem;
+            font-weight: 800;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    section.image-carousel {
+      margin-top: 4rem;
+    }
+  }
+}
+
+//Projecten
+.projecten-template-default {
+  .single-project {
+    section.project-details-section {
+      background-color: @fluo-green;
+      padding: 4rem 0;
+
+      .project-details {
+        .item {
+          padding-left: 4rem;
+
+          h2 {
+            font-weight: @font-semibold;
+          }
+
+          h6 {
+            font-weight: @font-normal;
+          }
+        }
+      }
+    }
+
+    .breadcrumb {
+      margin-top: 2rem;
+
+      span {
+        padding: 0 1rem;
+        border-left: 1px solid @light;
+        color: @lightblue;
+
+        &:first-child {
+          padding-left: 0;
+          border-left: none;
+        }
+
+        a {
+          color: @body;
+        }
+      }
+    }
+
+    .project-description {
+      padding-right: 4rem;
+      padding-bottom: 2rem;
+
+      p {
+        color: @body;
+        font-size: 1.5rem;
+      }
+    }
+
+    .project-features {
+      background-color: @lighter;
+      padding: 2rem 1rem 1rem 2rem;
+      border-radius: @radius-small;
+
+      table {
+        td.feature-caption {
+          font-weight: @font-semibold;
+        }
+
+        td.feature-data {
+          font-size: .875rem;
+        }
+      }
+    }
+
+    section.image-carousel {
+      margin-top: 4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vacature-template-default {
+    .single-vacature {
+      section {
+        padding: 1rem;
+
+        .breadcrumb {
+          font-size: .75rem;
+          margin-bottom: .1rem;
+        }
+      }
+
+      .job-description {
+        padding: 1rem;
+
+        p {
+          color: @body;
+          font-size: 1rem;
+        }
+      }
+
+      section.vacature-offer-list {
+        h2 {
+          margin-bottom: 1rem;
+          font-size: 1.5rem;
+        }
+
+        ul {
+          padding-left: 0;
+
+          li {
+            color: @body;
+            line-height: 1.75rem;
+            list-style: none;
+
+            &::before {
+              content: "\2022";
+              color: #B7CD00;
+              display: inline-block;
+              margin-right: 1rem;
+              font-weight: 800;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+
+    .contact-form-advanced {
+      .contact-form-wrapper {
+        margin-top: 0;
+      }
+
+    }
+  }
+.page-template-archive-post {
+  section {
+    .container {
+      padding: 0 0.75rem;
+    }
+  }
+
+}
+  .projecten-template-default {
+    .single-project {
+      section {
+        padding: 1rem;
+
+        .breadcrumb {
+          font-size: .75rem;
+          margin-bottom: .1rem;
+        }
+
+        .project-description {
+          padding: 1rem;
+
+          p {
+            color: @body;
+            font-size: 1rem;
+          }
+        }
+
+        &.mega-block {
+          .sub-title-headers {
+            width: 100% !important;
+            h3.p-title {
+              text-align: center;
+              margin-bottom: 0;
+              font-size: 1.5rem;
+            }
+          }
+
+          .megablock-right {
+            width: 100%;
+            margin-left: .1rem;
+
+            &.video {
+              video {
+                width: 100%;
+              }
+
+              #play-btn {
+                bottom: 9px;
+                left: 0;
+              }
+            }
+
+            img {
+              max-width: 100%;
+            }
+
+            .bordered-img-container {
+              width: 100px;
+              height: 100px;
+
+              img {
+                width: 90%;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .post-filter-section {
+    form.post-filter {
+        .form-inner-wrapper {
+          flex-direction: column;
+          select {
+            padding: .25rem 1rem;
+          }
+          label.choose-date-label {
+            display: none;
+          }
+          button.p-btn-primary {
+            width: 100%;
+          }
+        }
+    }
+  }
+
+}

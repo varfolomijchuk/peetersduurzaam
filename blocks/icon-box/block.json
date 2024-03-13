@@ -1,0 +1,18 @@
+{
+    "name": "acf/icon-box",
+    "title": "Icon with title and body",
+    "description": "Customizable box with icon title and body text",
+    "style": [
+        "file:./icon-box.css"
+    ],
+    "category": "media",
+    "icon": "image-filter",
+    "keywords": [
+        "Advantages block"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "icon-box.php"
+    },
+    "align": "full"
+}
