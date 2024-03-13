@@ -54,25 +54,26 @@ Template Name: Single Project Template
                 </div>
 			</div>
         </section>
-        <section class="project-details-section">
-            <div class="container">
-                <div class="row project-details">
-                    <div class="col-lg-4 item">
-                        <h2><?php echo get_field('project_details')['besparing'] ?></h2>
-                        <h6>Besparing per jaar</h6>
-                    </div>
-                    <div class="col-lg-4 item">
-                        <h2><?php echo get_field('project_details')['zonnepanelen'] ?></h2>
-                        <h6>Zonnepanelen</h6>
-                    </div>
-                    <div class="col-lg-4 item">
-                        <h2><?php echo get_field('project_details')['power'] ?></h2>
-                        <h6>Gezamenlijk vermogen</h6>
-                    </div>
 
+        <?php
+        $details  = get_field('project_details');
+        if ($details) : ?>
+            <section class="project-details-section">
+                <div class="container">
+                    <div class="row project-details">
+                        <?php foreach ($details as $key => $item) :
+                            $title = $item['title'];
+                            $subtitle = $item['subtitle'];
+                            ?>
+                                <div class="col-lg-4 item <?php echo !$title ? ' d-flex align-items-end' : null; ?>">
+                                    <?php echo $title ? '<h2>' . $title . '</h2>' : null; ?>
+                                    <?php echo $subtitle ? '<h6>' . $subtitle . '</h6>' : null; ?>
+                                </div>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        <?php endif; ?>
         <section class="image-carousel right-edge left-edge">
             <div class="container">
                 <div class="container-fluid carousel-wrapper">
@@ -95,8 +96,6 @@ Template Name: Single Project Template
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 variableWidth: true,
-
-
             });
         </script>
 

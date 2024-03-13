@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc0b2ab6-b14e-4c36-956c-a3efc6580f60" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive-post_old.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/google-reviews-carousel/google-reviews-carousel_old.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/google-reviews-carousel/google-reviews-carousel_old.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/loop-posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-projecten_old.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/flexible_content/image_text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom-post-types.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom-post-types.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/front.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/front.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/contact-form-advanced/contact-form-advanced.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/contact-form-advanced/contact-form-advanced.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/contact-form-advanced/contact-form-advanced.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/contact-form-advanced/contact-form-advanced.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/cpt-carousel/cpt-carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/cpt-carousel/cpt-carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/cpt-carousel/cpt-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/cpt-carousel/cpt-carousel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/google-reviews-carousel/google-reviews-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/google-reviews-carousel/google-reviews-carousel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/mega-block/mega-block.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/mega-block/mega-block.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/partners/partners.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/partners/partners.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/products-overview/products-overview.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/products-overview/products-overview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/reviews-carousel/reviews-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/reviews-carousel/reviews-carousel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-projecten.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-projecten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-projecten.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-projecten.php" afterDir="false" />
-    </list>
+    <list default="true" id="dc0b2ab6-b14e-4c36-956c-a3efc6580f60" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,21 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/valentin/Local Sites/peetersduurzaam/app/public/wp-content/themes/peeters/template-parts/flexible_content&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/valentin/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.buildTools.gulp.gulp_package_dir": "/Users/valentin/Local Sites/peetersduurzaam/app/public/wp-content/themes/peeters/node_modules/gulp",
+    "last_opened_file_path": "/Users/valentin/Local Sites/peetersduurzaam/app/public/wp-content/themes/peeters/template-parts/flexible_content",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/valentin/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/template-parts/flexible_content" />
@@ -90,6 +56,24 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/blocks/google-reviews-carousel" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,6 +92,7 @@
       <workItem from="1709543751128" duration="598000" />
       <workItem from="1709548425048" duration="1912000" />
       <workItem from="1709906894342" duration="2893000" />
+      <workItem from="1710319020153" duration="5776000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -125,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708361662213</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1710319035537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710319035538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
