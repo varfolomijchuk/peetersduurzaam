@@ -20,11 +20,11 @@ if ($additional_styles_enabled) {
     $custom_width = $settings['custom_width'] ? "width:" . $settings['custom_width'] . "px" : "";
     $reversed_order = $settings['reversed_order'];
 }
-$space_margin  = get_field('margin_topbottom');
-$space_padding  = get_field('padding_topbottom');
+$space_margin  = get_field('add_margins');
+$space_padding  = get_field('add_paddings');
 ?>
-<section class="<?php echo esc_attr($class_name); ?><?php echo $space_margin ? ' mt-4 mb-4' : null; ?><?php echo $space_padding ? ' pt-4 pb-4' : null; ?>" style="<?php echo "background-color:" . get_field('settings')['background_color'] ?>">
-    <div class="container">
+<section class="<?php echo esc_attr($class_name); ?><?php echo $space_margin ? ' mt-4 mb-4' : null; ?>" style="<?php echo "background-color:" . get_field('settings')['background_color'] ?>">
+    <div class="container<?php echo $space_padding ? ' pt-4 pb-4' : null; ?>">
         <div class="mega-block-wrapper d-flex gap-4 gap-md-5 flex-wrap flex-xl-nowrap align-items-center <?php echo get_field('settings')['justify_content'] . " ";
                                                                                                             echo $reversed_order ? "flex-row-reverse " : "flex-row "; ?> justify-content-md-center justify-content-lg-between">
             <div style="width:<?php echo $settings['custom_width'] . "px"; ?>" class="sub-title-headers flex-grow-0 flex-shrink-0">

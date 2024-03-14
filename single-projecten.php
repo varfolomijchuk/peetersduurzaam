@@ -54,7 +54,6 @@ Template Name: Single Project Template
                 </div>
 			</div>
         </section>
-
         <?php
         $details  = get_field('project_details');
         if ($details) : ?>
@@ -62,13 +61,13 @@ Template Name: Single Project Template
                 <div class="container">
                     <div class="row project-details">
                         <?php foreach ($details as $key => $item) :
-                            $title = $item['title'];
-                            $subtitle = $item['subtitle'];
+                            $detail_title = $item['title'];
+                            $detail_subtitle = $item['subtitle'];
                             ?>
-                                <div class="col-lg-4 item <?php echo !$title ? ' d-flex align-items-end' : null; ?>">
-                                    <?php echo $title ? '<h2>' . $title . '</h2>' : null; ?>
-                                    <?php echo $subtitle ? '<h6>' . $subtitle . '</h6>' : null; ?>
-                                </div>
+                            <div class="col-lg-4 item">
+                                <?php echo $detail_title ? '<h2>' . $detail_title . '</h2>' : null; ?>
+                                <?php echo $detail_subtitle ? '<h6>' . $detail_subtitle . '</h6>' : null; ?>
+                            </div>
                         <?php endforeach; ?>
                     </div>
                 </div>

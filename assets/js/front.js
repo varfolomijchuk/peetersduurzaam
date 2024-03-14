@@ -25,8 +25,10 @@ $(".calendly-inline-widget").bind("DOMSubtreeModified", function () {
 
 $(document).ready(function () {
     let dateNow = new Date(),
+        hours = dateNow.getHours(),
+        minutes = dateNow.getMinutes(),
         workNow = true;
-    if ((dateNow.getHours() < 8 && dateNow.getMinutes() < 30) || (dateNow.getHours() > 17 && dateNow.getMinutes() > 30)) workNow = false;
+    if ((hours < 8 || (hours === 8 && minutes <= 30)) || (hours > 17 || (hours === 17 && minutes >= 30))) workNow = false;
     if (dateNow.getDay() == 0 || dateNow.getDay() == 6) workNow = false;
     if (workNow === false) $('.phone-dot, #phone').addClass('phone-dot--red');
 });

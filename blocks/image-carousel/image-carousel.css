@@ -3,6 +3,11 @@
   overflow: hidden;
 }
 
+/*.image-carousel .slick-list .slick-track {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+
 .image-carousel .slick-list  {
   overflow: visible;
 }
