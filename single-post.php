@@ -2,15 +2,16 @@
 /*
 Template Name: Basic Blog Template
 */
-?>
-<?php get_header(); ?>
+ get_header();
+$content = get_the_content();
+ ?>
 
 <main class="single-post">
-    <section class="single-post__hero">
+    <section class="single-post__hero d-flex">
         <div class="hero-background">
             <?php echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
         </div>
-        <div class="container">
+        <div class="container d-flex align-items-center">
             <div class="row">
                 <div class="col">
                     <div class="single-post__hero__title-wrapper">
@@ -21,22 +22,34 @@ Template Name: Basic Blog Template
         </div>
     </section>
 
-    <section  class="single-post__image-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="text-wrapper">
-                        <?php echo wp_trim_words(get_the_content(), 55); ?>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 order-1">
-                    <div class="image-wrapper">
-                        <?php echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
+    <?php if ($content) : ?>
+        <section class="single-post__main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <?php echo wpautop($content); ?>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
+
+    <!--    <section  class="single-post__image-text">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12 col-lg-6">-->
+<!--                    <div class="text-wrapper">-->
+<!--                        --><?php //echo wp_trim_words(get_the_content(), 55); ?>
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-12 col-lg-6 order-1">-->
+<!--                    <div class="image-wrapper">-->
+<!--                        --><?php //echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
     <?php if ($flex_content = get_field('flexible_content')) : ?>
         <?php foreach ($flex_content as $key => $layout) : ?>
             <?php show_template('flexible_content/' . $layout['acf_fc_layout'], $layout, 'template-parts'); ?>
@@ -66,7 +79,7 @@ Template Name: Basic Blog Template
             <div class="row">
 
                 <div class="order-2 order-xl-0 col-lg-6 d-flex flex-column justify-content-around">
-                    <div class="reviews-wrapper pb-3 d-block d-md-flex gap-3 justify-content-md-between"">
+                    <div class="reviews-wrapper pb-3 d-block d-md-flex gap-3 justify-content-md-between">
                             <div class="heading">
                                 <h6 class="contact-subtitle">Ervaring van onze klanten</h6>
                                 <h5 class="contact-title">Lees enkele ervaringen</h5>

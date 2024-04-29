@@ -59,37 +59,37 @@ $adjust_top_margin  = get_field('adjust_top_margin');
         </div>
     </div>
     <script>
-        $('.contact-google-reviews-carousel .wp-google-reviews').slick({
-            infinite: true,
-            draggable: true,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            variableWidth: false,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        });
-
-        let upload_title = document.querySelector('span.modern-title');
-        if( upload_title ){
-            upload_title.innerText ="<?php echo __('Sleep je CV om te uploaden of selecteer je CV'); ?>";
-        }
-		let countReviews = $('.ti-header.source-Google .ti-text strong').text(),
-        	rating = $('.ti-header.source-Google .ti-rating').text();
-    	$('.ti-header.source-Google .ti-text strong').text(countReviews.replace(/recensie/g, 'review'));
-    	$('.ti-header.source-Google .ti-rating').text(rating + ' / 5');
+        //$('.contact-google-reviews-carousel .wp-google-reviews').slick({
+        //    infinite: true,
+        //    draggable: true,
+        //    slidesToShow: 2,
+        //    slidesToScroll: 1,
+        //    variableWidth: false,
+        //    responsive: [
+        //        {
+        //            breakpoint: 1024,
+        //            settings: {
+        //                slidesToShow: 1,
+        //                slidesToScroll: 1
+        //            }
+        //        },
+        //        {
+        //            breakpoint: 480,
+        //            settings: {
+        //                slidesToShow: 1,
+        //                slidesToScroll: 1
+        //            }
+        //        }
+        //    ]
+        //});
+        //
+        //let upload_title = document.querySelector('span.modern-title');
+        //if( upload_title ){
+        //    upload_title.innerText ="<?php //echo __('Sleep je CV om te uploaden of selecteer je CV'); ?>//";
+        //}
+		//let countReviews = $('.ti-header.source-Google .ti-text strong').text(),
+        //	rating = $('.ti-header.source-Google .ti-rating').text();
+    	//$('.ti-header.source-Google .ti-text strong').text(countReviews.replace(/recensie/g, 'review'));
+    	//$('.ti-header.source-Google .ti-rating').text(rating + ' / 5');
     </script>
 </section>

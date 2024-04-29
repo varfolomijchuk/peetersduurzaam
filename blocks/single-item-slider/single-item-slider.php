@@ -36,22 +36,42 @@ if (!empty($block['className'])) {
     </div>
 </section>
 <script>
-    $('.single-item-slider-container').slick({
-        autoplay: false,
-        dots: true,
-        customPaging : function(slider, i) {
-            i++;
-            var thumb = $(slider.$slides[i]).data();
-            return '<a>'+i+'</a>';
-        },
-        arrows: true,
-        prevArrow: "<button class='simple-prev '>Vorige</button>",
-        nextArrow: "<button class='simple-next '>Volgende</button>",
-        infinite: true,
-        draggable: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    });
+    if ($('.single-item-slider').length) {
+        $('.single-item-slider .single-item-slider-container').each((id, el) => {
+            $(el).slick({
+                autoplay: false,
+                dots: true,
+                customPaging : function(slider, i) {
+                    i++;
+                    var thumb = $(slider.$slides[i]).data();
+                    return '<a>'+i+'</a>';
+                },
+                arrows: true,
+                prevArrow: "<button class='simple-prev '>Vorige</button>",
+                nextArrow: "<button class='simple-next '>Volgende</button>",
+                infinite: true,
+                draggable: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+        });
+    }
+    // $('.single-item-slider-container').slick({
+    //     autoplay: false,
+    //     dots: true,
+    //     customPaging : function(slider, i) {
+    //         i++;
+    //         var thumb = $(slider.$slides[i]).data();
+    //         return '<a>'+i+'</a>';
+    //     },
+    //     arrows: true,
+    //     prevArrow: "<button class='simple-prev '>Vorige</button>",
+    //     nextArrow: "<button class='simple-next '>Volgende</button>",
+    //     infinite: true,
+    //     draggable: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    // });
 	
 	
     $(document).ready(function() {

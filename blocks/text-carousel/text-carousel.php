@@ -43,32 +43,64 @@ if (!empty($block['className'])) {
     </div>
 </section>
 <script>
-    $('.text-carousel-wrapper').slick({
-        autoplay: true,
-        infinite: true,
-        draggable: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+    if ($('.text-carousel').length) {
+        $('.text-carousel .text-carousel-wrapper').each((id, el) => {
+            $(el).slick({
+                autoplay: true,
+                infinite: true,
+                draggable: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
 
-                }
-            }
+                        }
+                    }
 
-        ]
-    });
+                ]
+            });
+        });
+    }
+    // $('.text-carousel-wrapper').slick({
+    //     autoplay: true,
+    //     infinite: true,
+    //     draggable: true,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     arrows: true,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 arrows: false,
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 1
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 480,
+    //             settings: {
+    //                 arrows: false,
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //
+    //             }
+    //         }
+    //
+    //     ]
+    // });
 </script>

@@ -1,4 +1,4 @@
-var $ = jQuery.noConflict();
+let $ = jQuery.noConflict();
 
 // <!-- Loadmore posts
 // $(document).on("click", ".loadmore-posts", function (e) {
@@ -17,11 +17,13 @@ var $ = jQuery.noConflict();
 // });
 // Loadmore posts -->
 
-$(".calendly-inline-widget").bind("DOMSubtreeModified", function () {
-    setTimeout(function () {
-        $('.full-preloader').addClass('hide');
-    }, 1000)
-});
+// if ($(".calendly-inline-widget").length) {
+    // $(".calendly-inline-widget").bind("DOMSubtreeModified", function () {
+        setTimeout(function () {
+            $('.full-preloader').addClass('hide');
+        }, 1000)
+    // });
+// }
 
 $(document).ready(function () {
     let dateNow = new Date(),

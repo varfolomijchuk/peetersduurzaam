@@ -4,7 +4,7 @@ $class_name = 'profiles';
 if (!empty($block['className'])) {
     $class_name .= ' ' . $block['className'];
 }
-
+$profiles  = get_field('profiles');
 ?>
 <section class="<?php echo esc_attr($class_name); ?>">
     <div class="container">
@@ -55,13 +55,24 @@ if (!empty($block['className'])) {
 
 </section>
 <script>
-    $('.carousel-wrapper').slick({
-        autoplay: false,
-        arrows: true,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        variableWidth: true
-
-    });
+    //$('.carousel-wrapper').slick({
+    //    autoplay: false,
+    //    arrows: true,
+    //    infinite: true,
+    //    slidesToShow: <?php //echo count($profiles) - 1 ?>//,
+    //    slidesToScroll: 1,
+    //    variableWidth: true
+    //});
+    if ($('.profiles').length) {
+        $('.profiles .carousel-wrapper').each((id, el) => {
+            $(el).slick({
+                autoplay: false,
+                arrows: true,
+                infinite: true,
+                slidesToShow: <?php echo count($profiles) - 1 ?>,
+                slidesToScroll: 1,
+                variableWidth: true
+            });
+        });
+    }
 </script>

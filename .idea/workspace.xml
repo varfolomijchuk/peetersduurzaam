@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc0b2ab6-b14e-4c36-956c-a3efc6580f60" name="Changes" comment="first commit" />
+    <list default="true" id="dc0b2ab6-b14e-4c36-956c-a3efc6580f60" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/assets/css/vendor/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/vendor/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/vendor/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/vendor/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/vendor/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/sliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/flexible_content/full_width_text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/front.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/front.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/blog-carousel/blog-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/blog-carousel/blog-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/contact-form-advanced/contact-form-advanced.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/contact-form-advanced/contact-form-advanced.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/cpt-carousel/cpt-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/cpt-carousel/cpt-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/icon-box/icon-box.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/icon-box/icon-box.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/image-carousel/image-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/logo-carousel/logo-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/logo-carousel/logo-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/numbered-slider/numbered-slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/numbered-slider/numbered-slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/products-overview/products-overview.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/products-overview/products-overview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profiles/profiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profiles/profiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/reviews-carousel/reviews-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/reviews-carousel/reviews-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/single-item-slider/single-item-slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/single-item-slider/single-item-slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/text-carousel/text-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/text-carousel/text-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-projecten.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-projecten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-vacature.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-vacature.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.buildTools.gulp.gulp_package_dir": "/Users/valentin/Local Sites/peetersduurzaam/app/public/wp-content/themes/peeters/node_modules/gulp",
-    "last_opened_file_path": "/Users/valentin/Local Sites/peetersduurzaam/app/public/wp-content/themes/peeters/template-parts/flexible_content",
+    "last_opened_file_path": "/Users/valentin/Local Sites/peetersduurzaam/app/public/wp-content/themes/peeters/assets/css/vendor/slick",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css/vendor/slick" />
       <recent name="$PROJECT_DIR$/template-parts/flexible_content" />
       <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$" />
@@ -92,7 +126,13 @@
       <workItem from="1709543751128" duration="598000" />
       <workItem from="1709548425048" duration="1912000" />
       <workItem from="1709906894342" duration="2893000" />
-      <workItem from="1710319020153" duration="21444000" />
+      <workItem from="1710319020153" duration="27500000" />
+      <workItem from="1710760728773" duration="22114000" />
+      <workItem from="1711544195371" duration="962000" />
+      <workItem from="1711959184301" duration="12000" />
+      <workItem from="1711965081092" duration="2396000" />
+      <workItem from="1712125881316" duration="306000" />
+      <workItem from="1712126202142" duration="29900000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

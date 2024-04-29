@@ -62,7 +62,7 @@ Template Name: Contact Template
 
                         <div class="text-container">
                             <p class="icon-label m-0">Stuur ons een appje</p>
-                            <p class="icon-value m-0"><?php echo get_field('contact_information', 'option')['phone'] ?></p>
+                            <p class="icon-value m-0"><?php echo get_field('contact_information', 'option')['whatsapp'] ?></p>
                         </div>
                     </div>
                 </div>

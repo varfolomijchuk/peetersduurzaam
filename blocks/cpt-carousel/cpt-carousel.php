@@ -82,27 +82,53 @@ if (!empty($block['className'])) {
     </div>
 </section>
 <script>
-    $('.cpt-carousel-wrapper-<?php echo get_field('custom_post_type') ?>').slick({
-        infinite: true,
-        draggable: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
+    //$('.cpt-carousel-wrapper-<?php //echo get_field('custom_post_type') ?>//').slick({
+    //    infinite: true,
+    //    draggable: true,
+    //    slidesToShow: 3,
+    //    slidesToScroll: 1,
+    //    responsive: [{
+    //            breakpoint: 1024,
+    //            settings: {
+    //                slidesToShow: 2,
+    //                slidesToScroll: 1
+    //            }
+    //        },
+    //        {
+    //            breakpoint: 480,
+    //            settings: {
+    //                slidesToShow: 1,
+    //                slidesToScroll: 1
+    //            }
+    //        }
+    //
+    //    ]
+    //
+    //});
+    if ($('.cpt-carousel').length) {
+        $('.cpt-carousel-wrapper-<?php echo get_field('custom_post_type') ?>').each((id, el) => {
+            $(el).slick({
+                infinite: true,
+                draggable: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
 
-        ]
-
-    });
+                ]
+            });
+        });
+    }
 </script>

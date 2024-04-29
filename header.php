@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+<!-- 	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="60b5dcf3-2b2d-4186-9300-132a2fd7707a" data-blockingmode="auto" type="text/javascript"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,6 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript"
             src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/vendor/slick.min.js"></script>
+<!--    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
 
     <?php wp_head(); ?>
 </head>
@@ -58,7 +60,7 @@
                     wp_nav_menu($args);
                     ?>
                 </nav>
-                <div class="text-end"><a class="btn btn-header" href="<?php echo esc_url(site_url('/contact/gratis-adviesgesprek', 'https')); ?>">Gratis adviesgesprek</a></div>
+                <div class="text-end"><a class="btn btn-header" href="<?php echo esc_url(site_url('/contact/gratis-adviesgesprek', 'https')); ?>"><?php echo __('Persoonlijk advies', ' peetersduurzaam'); ?></a></div>
             </div>
         </div>
     </header>

@@ -11,6 +11,7 @@ function gettemplates_to_enqueue_styles()
     //wp_enqueue_style( 'owl-style-def', get_stylesheet_directory_uri() . '/assets/owlcarousel/assets/owl.theme.default.min.css' );
 
     wp_enqueue_script('script-name', get_template_directory_uri() . '/assets/js/front.js', array(), null, true);
+    wp_enqueue_script('sliders', get_template_directory_uri() . '/assets/js/sliders.js', array(), null, true);
     wp_localize_script( 'script-name', 'ajax_object',
         [
             'ajaxurl' => admin_url( 'admin-ajax.php' )
@@ -205,15 +206,13 @@ function posts_load()
     $paged = isset($_POST['paged']) ? $_POST['paged'] : '';
     $load_more = isset($_POST['loadMore']) ? $_POST['loadMore'] : '';
     $year = isset($_POST['year']) ? $_POST['year'] : '';
-    $per_page = $load_more === 'true' ? 3 : 9;
     $args = [
         'post_type' => 'post',
         'post_status' => 'publish',
         'order'       => 'DESC',
-        'posts_per_page' => $per_page,
+        'posts_per_page' => 9,
         'paged' => $paged,
     ];
-
 
     if ($cat && $cat !== 'all') {
         $args['category_name'] = $cat;

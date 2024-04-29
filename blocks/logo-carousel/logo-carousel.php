@@ -8,7 +8,7 @@ if (!empty($block['className'])) {
 ?>
 <section class="<?php echo esc_attr($class_name); ?>">
 
-            <div class="container carousel-wrapper">
+            <div class="container carousel-wrapper" data-to-show="<?php echo get_field('settings')['slides_to_show']; ?>">
                 <?php if(have_rows('images')):
                     while(have_rows('images')) : the_row(); ?>
                         <div class="carousel-img-container">
@@ -21,14 +21,28 @@ if (!empty($block['className'])) {
 
 </section>
 <script>
-    $('.carousel-wrapper').slick({
-        autoplay: true,
-        swipeToSlide: true,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        arrows: false,
-        infinite: true,
-        slidesToShow: <?php echo get_field('settings')['slides_to_show'] ?>,
-        variableWidth: true,
-    });
+    //$('.carousel-wrapper').slick({
+    //    autoplay: true,
+    //    swipeToSlide: true,
+    //    pauseOnHover: false,
+    //    pauseOnFocus: false,
+    //    arrows: false,
+    //    infinite: true,
+    //    slidesToShow: <?php //echo get_field('settings')['slides_to_show'] ?>//,
+    //    variableWidth: true,
+    //});
+    if ($('.logo-carousel').length) {
+        $('.logo-carousel .carousel-wrapper').each((id, el) => {
+            $(el).slick({
+                autoplay: true,
+                swipeToSlide: true,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+                arrows: false,
+                infinite: true,
+                slidesToShow: <?php echo get_field('settings')['slides_to_show'] ?>,
+                variableWidth: true,
+            });
+        });
+    }
 </script>

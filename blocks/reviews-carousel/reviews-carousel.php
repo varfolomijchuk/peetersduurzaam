@@ -65,40 +65,40 @@ if (!empty($block['className'])) {
     </div>
 </section>
 <script>
-    $('.review-carousel-wrapper').slick({
-        infinite: true,
-        draggable: true,
-        slidesToShow: <?php echo get_field('settings')['slides_to_show']?>,
-        slidesToScroll: 1,
-        variableWidth: false,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-
-        ]
-    });
-	
-	$(document).ready(function() {
-        if ($(window).width() >= 768 && $(window).width() <= 991.98) {
-            var maxHeight = 0;
-            $('.review-carousel-wrapper .single-carousel-item').each(function() {
-                var height = $(this).height();
-                maxHeight = Math.max(maxHeight, height);
-            });
-
-            $('.review-carousel-wrapper .single-carousel-item').height(maxHeight);
-        }
-    });
+    //$('.review-carousel-wrapper').slick({
+    //    infinite: true,
+    //    draggable: true,
+    //    slidesToShow: <?php //echo get_field('settings')['slides_to_show']?>//,
+    //    slidesToScroll: 1,
+    //    variableWidth: false,
+    //    responsive: [
+    //        {
+    //            breakpoint: 1024,
+    //            settings: {
+    //                slidesToShow: 2,
+    //                slidesToScroll: 1
+    //            }
+    //        },
+    //        {
+    //            breakpoint: 480,
+    //            settings: {
+    //                slidesToShow: 1,
+    //                slidesToScroll: 1
+    //            }
+    //        }
+    //
+    //    ]
+    //});
+	//
+	//$(document).ready(function() {
+    //    if ($(window).width() >= 768 && $(window).width() <= 991.98) {
+    //        var maxHeight = 0;
+    //        $('.review-carousel-wrapper .single-carousel-item').each(function() {
+    //            var height = $(this).height();
+    //            maxHeight = Math.max(maxHeight, height);
+    //        });
+    //
+    //        $('.review-carousel-wrapper .single-carousel-item').height(maxHeight);
+    //    }
+    //});
 </script>

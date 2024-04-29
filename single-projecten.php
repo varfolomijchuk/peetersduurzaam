@@ -73,29 +73,35 @@ Template Name: Single Project Template
                 </div>
             </section>
         <?php endif; ?>
-        <section class="image-carousel right-edge left-edge">
-            <div class="container">
-                <div class="container-fluid carousel-wrapper">
-                    <?php if(have_rows('images')):
-                        while(have_rows('images')) : the_row(); ?>
+        <?php
+        $images  = get_field('images');
+        if ($images) : ?>
+            <section class="image-carousel right-edge left-edge">
+                <div class="container">
+                    <div class="container-fluid carousel-wrapper">
+                        <?php foreach ($images as $key => $item) : ?>
                             <div class="carousel-img-container">
-                                <img src="<?php echo get_sub_field('image') ?>" alt="Carousel Image">
+                                <img src="<?php echo $item; ?>" alt="Carousel Image">
                             </div>
-
-                        <?php endwhile; ?>
-                    <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+        <?php endif; ?>
         <script>
-            $('.carousel-wrapper').slick({
-                centerMode: true,
-                centerPadding: '10px',
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                variableWidth: true,
-            });
+            if ($('.image-carousel').length) {
+                $('.image-carousel .carousel-wrapper').each((id, el) => {
+                    $(el).slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    });
+                });
+            }
+            // $('.carousel-wrapper').slick({
+            //     slidesToShow: 1,
+            //     slidesToScroll: 1,
+            // });
         </script>
 
 
@@ -144,33 +150,64 @@ Template Name: Single Project Template
             </div>
         </section>
         <script>
-            $('.cpt-carousel-wrapper-projecten').slick({
-                infinite: true,
-                draggable: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            arrows: false,
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            arrows: false,
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
+            if ($('.cpt-carousel').length) {
+                $('.cpt-carousel .cpt-carousel-wrapper-projecten').each((id, el) => {
+                    $(el).slick({
+                        infinite: true,
+                        draggable: true,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                    arrows: false,
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    arrows: false,
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
 
-                        }
-                    }
+                                }
+                            }
 
-                ]
+                        ]
 
-            });
+                    });
+                });
+            }
+            // $('.cpt-carousel-wrapper-projecten').slick({
+            //     infinite: true,
+            //     draggable: true,
+            //     slidesToShow: 3,
+            //     slidesToScroll: 1,
+            //     responsive: [
+            //         {
+            //             breakpoint: 1024,
+            //             settings: {
+            //                 arrows: false,
+            //                 slidesToShow: 1,
+            //                 slidesToScroll: 1
+            //             }
+            //         },
+            //         {
+            //             breakpoint: 480,
+            //             settings: {
+            //                 arrows: false,
+            //                 slidesToShow: 1,
+            //                 slidesToScroll: 1,
+            //
+            //             }
+            //         }
+            //
+            //     ]
+            //
+            // });
         </script>
 
         <section class="free-consultation">
@@ -217,38 +254,38 @@ Template Name: Single Project Template
                 </div>
             </div>
             <script>
-                $('.contact-google-reviews-carousel .wp-google-reviews').slick({
-                    infinite: true,
-                    draggable: true,
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    variableWidth: false,
-                    responsive: [
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        }
-                    ]
-                });
-
-                let upload_title = document.querySelector('span.modern-title');
-                if( upload_title ){
-                    upload_title.innerText ="<?php echo __('Sleep je CV om te uploaden of selecteer je CV'); ?>";
-                }
-                let countReviews = $('.ti-header.source-Google .ti-text strong').text(),
-                    rating = $('.ti-header.source-Google .ti-rating').text();
-                $('.ti-header.source-Google .ti-text strong').text(countReviews.replace(/recensie/g, 'review'));
-                $('.ti-header.source-Google .ti-rating').text(rating + ' / 5');
+                //$('.contact-google-reviews-carousel .wp-google-reviews').slick({
+                //    infinite: true,
+                //    draggable: true,
+                //    slidesToShow: 2,
+                //    slidesToScroll: 1,
+                //    variableWidth: false,
+                //    responsive: [
+                //        {
+                //            breakpoint: 1024,
+                //            settings: {
+                //                slidesToShow: 1,
+                //                slidesToScroll: 1
+                //            }
+                //        },
+                //        {
+                //            breakpoint: 480,
+                //            settings: {
+                //                slidesToShow: 1,
+                //                slidesToScroll: 1
+                //            }
+                //        }
+                //    ]
+                //});
+                //
+                //let upload_title = document.querySelector('span.modern-title');
+                //if( upload_title ){
+                //    upload_title.innerText ="<?php //echo __('Sleep je CV om te uploaden of selecteer je CV'); ?>//";
+                //}
+                //let countReviews = $('.ti-header.source-Google .ti-text strong').text(),
+                //    rating = $('.ti-header.source-Google .ti-rating').text();
+                //$('.ti-header.source-Google .ti-text strong').text(countReviews.replace(/recensie/g, 'review'));
+                //$('.ti-header.source-Google .ti-rating').text(rating + ' / 5');
             </script>
         </section>
 <!--        <section class="contact-form-advanced bgrnd-fluo-green">-->

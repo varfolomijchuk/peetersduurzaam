@@ -22,23 +22,16 @@ if (!empty($block['className'])) {
 
 </section>
 <script>
-    $('.carousel-wrapper').slick({
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        variableWidth: true,
-        responsive: [
-            {
-                breakpoint: 1400,
-                settings: {
-                    centerMode: false,
-                    centerPadding: '10px',
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    variableWidth: false,
-                }
-            },
-        ]
-    });
+    // $('.carousel-wrapper').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    // });
+    if ($('.image-carousel').length) {
+        $('.image-carousel .carousel-wrapper').each((id, el) => {
+            $(el).slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+        });
+    }
 </script>
