@@ -1,6 +1,6 @@
 <?php
 // Create class attribute allowing for custom "className" and "align" values.
-$class_name = 'cpt-carousel';
+$class_name = 'cpt-carousel blog-carousel';
 if (!empty($block['className'])) {
     $class_name .= ' ' . $block['className'];
 }
@@ -8,7 +8,7 @@ if (!empty($block['className'])) {
 ?>
 <section class="<?php echo esc_attr($class_name); ?>">
     <div class="container">
-        <div class="cpt-carousel-wrapper d-flex gap-3">
+        <div class="cpt-carousel-wrapper blog-carousel-wrapper d-flex gap-3">
             <?php
             $args = array(
                 'post_type' => get_field('custom_post_type'),
@@ -41,15 +41,16 @@ if (!empty($block['className'])) {
     //     slidesToScroll: 1,
     //     variableWidth: false,
     // });
-    if ($('.cpt-carousel').length) {
-        $('.cpt-carousel .cpt-carousel-wrapper').each((id, el) => {
-            $(el).slick({
-                infinite: true,
-                draggable: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                variableWidth: false,
-            });
-        });
-    }
+
+    // if ($('.cpt-carousel').length) {
+    //     $('.cpt-carousel .cpt-carousel-wrapper').each((id, el) => {
+    //         $(el).slick({
+    //             infinite: true,
+    //             draggable: true,
+    //             slidesToShow: 3,
+    //             slidesToScroll: 1,
+    //             variableWidth: false,
+    //         });
+    //     });
+    // }
 </script>

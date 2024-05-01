@@ -12,7 +12,7 @@ $profiles  = get_field('profiles');
             <h5 class="subtitle"><?php echo get_field('header')['subtitle'] ?></h5>
             <h2 class="title"><?php echo get_field('header')['title'] ?></h2>
         </div>
-        <div class="container carousel-wrapper">
+        <div class="container carousel-wrapper" data-to-show="<?php echo count($profiles) - 1 ?>">
             <?php if (have_rows('profiles')):
                 while (have_rows('profiles')) : the_row(); ?>
                     <div class="profile-container">
@@ -63,16 +63,17 @@ $profiles  = get_field('profiles');
     //    slidesToScroll: 1,
     //    variableWidth: true
     //});
-    if ($('.profiles').length) {
-        $('.profiles .carousel-wrapper').each((id, el) => {
-            $(el).slick({
-                autoplay: false,
-                arrows: true,
-                infinite: true,
-                slidesToShow: <?php echo count($profiles) - 1 ?>,
-                slidesToScroll: 1,
-                variableWidth: true
-            });
-        });
-    }
+
+    //if ($('.profiles').length) {
+    //    $('.profiles .carousel-wrapper').each((id, el) => {
+    //        $(el).slick({
+    //            autoplay: false,
+    //            arrows: true,
+    //            infinite: true,
+    //            slidesToShow: <?php //echo count($profiles) - 1 ?>//,
+    //            slidesToScroll: 1,
+    //            variableWidth: true
+    //        });
+    //    });
+    //}
 </script>

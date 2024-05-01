@@ -90,14 +90,14 @@ Template Name: Single Project Template
             </section>
         <?php endif; ?>
         <script>
-            if ($('.image-carousel').length) {
-                $('.image-carousel .carousel-wrapper').each((id, el) => {
-                    $(el).slick({
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    });
-                });
-            }
+            // if ($('.image-carousel').length) {
+            //     $('.image-carousel .carousel-wrapper').each((id, el) => {
+            //         $(el).slick({
+            //             slidesToShow: 1,
+            //             slidesToScroll: 1,
+            //         });
+            //     });
+            // }
             // $('.carousel-wrapper').slick({
             //     slidesToShow: 1,
             //     slidesToScroll: 1,
@@ -117,7 +117,7 @@ Template Name: Single Project Template
                     </div>
 
                 </div>
-                <div class="cpt-carousel-wrapper-projecten d-flex gap-3">
+                <div class="cpt-carousel-wrapper d-flex gap-3" data-post-type="projecten">
                     <?php
                     $args = array(
                         'post_type' => 'projecten',
@@ -150,37 +150,37 @@ Template Name: Single Project Template
             </div>
         </section>
         <script>
-            if ($('.cpt-carousel').length) {
-                $('.cpt-carousel .cpt-carousel-wrapper-projecten').each((id, el) => {
-                    $(el).slick({
-                        infinite: true,
-                        draggable: true,
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        responsive: [
-                            {
-                                breakpoint: 1024,
-                                settings: {
-                                    arrows: false,
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1
-                                }
-                            },
-                            {
-                                breakpoint: 480,
-                                settings: {
-                                    arrows: false,
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1,
-
-                                }
-                            }
-
-                        ]
-
-                    });
-                });
-            }
+            // if ($('.cpt-carousel').length) {
+            //     $('.cpt-carousel .cpt-carousel-wrapper-projecten').each((id, el) => {
+            //         $(el).slick({
+            //             infinite: true,
+            //             draggable: true,
+            //             slidesToShow: 3,
+            //             slidesToScroll: 1,
+            //             responsive: [
+            //                 {
+            //                     breakpoint: 1024,
+            //                     settings: {
+            //                         arrows: false,
+            //                         slidesToShow: 1,
+            //                         slidesToScroll: 1
+            //                     }
+            //                 },
+            //                 {
+            //                     breakpoint: 480,
+            //                     settings: {
+            //                         arrows: false,
+            //                         slidesToShow: 1,
+            //                         slidesToScroll: 1,
+            //
+            //                     }
+            //                 }
+            //
+            //             ]
+            //
+            //         });
+            //     });
+            // }
             // $('.cpt-carousel-wrapper-projecten').slick({
             //     infinite: true,
             //     draggable: true,

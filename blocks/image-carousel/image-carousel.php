@@ -26,12 +26,12 @@ if (!empty($block['className'])) {
     //     slidesToShow: 1,
     //     slidesToScroll: 1,
     // });
-    if ($('.image-carousel').length) {
-        $('.image-carousel .carousel-wrapper').each((id, el) => {
-            $(el).slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            });
-        });
-    }
+    // if ($('.image-carousel').length) {
+    //     $('.image-carousel .carousel-wrapper').each((id, el) => {
+    //         $(el).slick({
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1,
+    //         });
+    //     });
+    // }
 </script>

@@ -17,7 +17,7 @@ if (!empty($block['className'])) {
             </div>
 
         </div>
-        <div class="cpt-carousel-wrapper-<?php echo get_field('custom_post_type') ?> d-flex gap-3">
+        <div class="cpt-carousel-wrapper cpt-carousel-wrapper-<?php echo get_field('custom_post_type') ?> d-flex gap-3" data-post-type="<?php echo get_field('custom_post_type') ?>">
             <?php
             $args = array(
                 'post_type' => get_field('custom_post_type'),
@@ -105,30 +105,30 @@ if (!empty($block['className'])) {
     //    ]
     //
     //});
-    if ($('.cpt-carousel').length) {
-        $('.cpt-carousel-wrapper-<?php echo get_field('custom_post_type') ?>').each((id, el) => {
-            $(el).slick({
-                infinite: true,
-                draggable: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-
-                ]
-            });
-        });
-    }
+    //if ($('.cpt-carousel').length) {
+    //    $('.cpt-carousel-wrapper-<?php //echo get_field('custom_post_type') ?>//').each((id, el) => {
+    //        $(el).slick({
+    //            infinite: true,
+    //            draggable: true,
+    //            slidesToShow: 3,
+    //            slidesToScroll: 1,
+    //            responsive: [{
+    //                breakpoint: 1024,
+    //                settings: {
+    //                    slidesToShow: 2,
+    //                    slidesToScroll: 1
+    //                }
+    //            },
+    //                {
+    //                    breakpoint: 480,
+    //                    settings: {
+    //                        slidesToShow: 1,
+    //                        slidesToScroll: 1
+    //                    }
+    //                }
+    //
+    //            ]
+    //        });
+    //    });
+    //}
 </script>

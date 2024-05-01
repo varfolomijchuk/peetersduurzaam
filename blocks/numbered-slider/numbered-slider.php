@@ -39,15 +39,16 @@ if (!empty($block['className'])) {
     //     slidesToScroll: 1,
     //     variableWidth: false,
     // });
-    if($('.cpt-carousel').length) {
-        $('.cpt-carousel .cpt-carousel-wrapper').each((id, el) => {
-            $(el).slick({
-                infinite: true,
-                draggable: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                variableWidth: false,
-            });
-        });
-    }
+
+    // if($('.cpt-carousel').length) {
+    //     $('.cpt-carousel .cpt-carousel-wrapper').each((id, el) => {
+    //         $(el).slick({
+    //             infinite: true,
+    //             draggable: true,
+    //             slidesToShow: 3,
+    //             slidesToScroll: 1,
+    //             variableWidth: false,
+    //         });
+    //     });
+    // }
 </script>

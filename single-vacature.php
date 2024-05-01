@@ -103,37 +103,37 @@ Template Name: Single Vacature Template
             </div>
         </section>
         <script>
-            if ($('.text-carousel').length) {
-                $('.text-carousel .text-carousel-wrapper').each((id, el) => {
-                    $(el).slick({
-                        infinite: true,
-                        draggable: true,
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        variableWidth: false,
-                        responsive: [
-                            {
-                                breakpoint: 1024,
-                                settings: {
-                                    arrows: false,
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1
-                                }
-                            },
-                            {
-                                breakpoint: 480,
-                                settings: {
-                                    arrows: false,
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1,
-
-                                }
-                            }
-
-                        ]
-                    });
-                });
-            };
+            // if ($('.text-carousel').length) {
+            //     $('.text-carousel .text-carousel-wrapper').each((id, el) => {
+            //         $(el).slick({
+            //             infinite: true,
+            //             draggable: true,
+            //             slidesToShow: 3,
+            //             slidesToScroll: 1,
+            //             variableWidth: false,
+            //             responsive: [
+            //                 {
+            //                     breakpoint: 1024,
+            //                     settings: {
+            //                         arrows: false,
+            //                         slidesToShow: 1,
+            //                         slidesToScroll: 1
+            //                     }
+            //                 },
+            //                 {
+            //                     breakpoint: 480,
+            //                     settings: {
+            //                         arrows: false,
+            //                         slidesToShow: 1,
+            //                         slidesToScroll: 1,
+            //
+            //                     }
+            //                 }
+            //
+            //             ]
+            //         });
+            //     });
+            // };
 
             // $('.text-carousel-wrapper').slick({
             //     infinite: true,
@@ -219,14 +219,14 @@ Template Name: Single Vacature Template
 
         </section>
         <script>
-            if ($('.image-carousel').length) {
-                $('.image-carousel .carousel-wrapper').each((id, el) => {
-                    $(el).slick({
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    });
-                });
-            }
+            // if ($('.image-carousel').length) {
+            //     $('.image-carousel .carousel-wrapper').each((id, el) => {
+            //         $(el).slick({
+            //             slidesToShow: 1,
+            //             slidesToScroll: 1,
+            //         });
+            //     });
+            // }
             // $('.carousel-wrapper').slick({
             //     slidesToShow: 1,
             //     slidesToScroll: 1,
@@ -282,37 +282,37 @@ Template Name: Single Vacature Template
             </div>
         </section>
         <script>
-            if ($('.reviews-carousel').length) {
-                $('.reviews-carousel .review-carousel-wrapper').each((id, el) => {
-                    $(el).slick({
-                        infinite: true,
-                        draggable: true,
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        variableWidth: false,
-                        responsive: [
-                            {
-                                breakpoint: 1024,
-                                settings: {
-                                    arrows: false,
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1
-                                }
-                            },
-                            {
-                                breakpoint: 480,
-                                settings: {
-                                    arrows: false,
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1,
-
-                                }
-                            }
-
-                        ]
-                    });
-                });
-            }
+            // if ($('.reviews-carousel').length) {
+            //     $('.reviews-carousel .review-carousel-wrapper').each((id, el) => {
+            //         $(el).slick({
+            //             infinite: true,
+            //             draggable: true,
+            //             slidesToShow: 3,
+            //             slidesToScroll: 1,
+            //             variableWidth: false,
+            //             responsive: [
+            //                 {
+            //                     breakpoint: 1024,
+            //                     settings: {
+            //                         arrows: false,
+            //                         slidesToShow: 1,
+            //                         slidesToScroll: 1
+            //                     }
+            //                 },
+            //                 {
+            //                     breakpoint: 480,
+            //                     settings: {
+            //                         arrows: false,
+            //                         slidesToShow: 1,
+            //                         slidesToScroll: 1,
+            //
+            //                     }
+            //                 }
+            //
+            //             ]
+            //         });
+            //     });
+            // }
             // $('.review-carousel-wrapper').slick({
             //     infinite: true,
             //     draggable: true,

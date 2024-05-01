@@ -77,6 +77,28 @@ Template Name: Projecten Template
                             </div>
                         </div>
 
+                        <pre>
+
+                            <?php
+                            $acf_group = acf_get_fields('group_6547dd3191b03');
+                            foreach ($acf_group as $key => $item) {
+
+                                if ($item['name'] === 'project_features') {
+                                    foreach ($item as $key2 => $inner) {
+                                        foreach ($inner[3] as $choice_data) {
+                                            if ($choice_data['label'] === 'Met klanttype') {
+                                                $clientTypeField = $choice_data;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            $choices = $clientTypeField['choices'];
+                            echo var_dump($choices)
+                            ?>
+                        </pre>
+
                         <div class="client-type-block">
                             <span class="filter-title"><?php _e('met klanttype', 'peeters'); ?></span>
                             <div class="cat-block__select">
@@ -112,7 +134,7 @@ Template Name: Projecten Template
         </div>
         <?php if ($count_projectens > $per_page) : ?>
             <div class="load-more-wrapper text-center p-4">
-                <span class="load-more p-btn-primary" data-post="projecten" data-per-page="<?php echo $per_page; ?>" data-count="<?php echo $count_projectens; ?>"><?php _e('Load more', 'peeters'); ?></span>
+                <span class="load-more p-btn-primary" data-post="projecten" data-per-page="<?php echo $per_page; ?>" data-count="<?php echo $count_projectens; ?>"><?php _e('Bekijk meer projecten', 'peeters'); ?></span>
             </div>
         <?php endif; ?>
     </div>
